@@ -1,0 +1,13 @@
+﻿[package]
+name = "apex-observability"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Local structured logging and observability primitives for Apex"
+
+[dependencies]
+chrono.workspace = true
+tokio.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
