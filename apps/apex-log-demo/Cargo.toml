@@ -1,0 +1,12 @@
+﻿[package]
+name = "apex-log-demo"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+publish = false
+
+[dependencies]
+apex-observability = { path = "../../crates/apex-observability" }
+tokio.workspace = true
+tracing.workspace = true
