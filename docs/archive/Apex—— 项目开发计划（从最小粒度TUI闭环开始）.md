@@ -355,8 +355,8 @@ Cargo.lock 必须提交。SQLite bundled 版本、Protocol generator、Rust tool
 
 ### 6.2 第一批工程文件
 
-- `Cargo.toml` workspace；
-- `rust-toolchain.toml`；
+- `../../Cargo.toml` workspace；
+- `../../rust-toolchain.toml`；
 - `rustfmt.toml`；
 - `clippy.toml`；
 - `deny.toml`；

@@ -3,7 +3,7 @@
 > 版本：v0.1（需求分析）
 > 日期：2026-08-07
 > 状态：待评审
-> 参考：本文档大量设计决策来源于对 8 个开源 AI 编码 Agent 的逆向分析（项目根目录上一级的 `../docs/` 目录下 9 份文档，共 10261 行），引用处注明出处。
+> 参考：本文档大量设计决策来源于对 8 个开源 AI 编码 Agent 的逆向分析（项目根目录上一级的 `..` 目录下 9 份文档，共 10261 行），引用处注明出处。
 
 ---
 
@@ -441,7 +441,7 @@ version: 1.2.0                   # 版本号
 
 | 维度 | 要求 |
 |---|---|
-| 代码规范 | `Cargo.toml` 显式 deny `unwrap/expect/panic/exit`（参考 claude-code-rust） |
+| 代码规范 | `../../Cargo.toml` 显式 deny `unwrap/expect/panic/exit`（参考 claude-code-rust） |
 | 测试覆盖率 | 核心模块 ≥ 80% |
 | 文档 | rustdoc 全覆盖公共 API，架构决策记录（ADR） |
 | CI/CD | GitHub Actions：lint + test + build（TUI/Desktop/Web）+ release |
