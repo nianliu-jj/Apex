@@ -1,0 +1,5021 @@
+{
+  "schema": "apex.traceability-matrix.v1",
+  "generated_from": [
+    "docs/Apex 设计文档.md",
+    "docs/Apex 原子模块系分文档.md",
+    "docs/Apex 功能开发原子化执行计划.md",
+    "docs/governance/identifier-registry.json"
+  ],
+  "policy": {
+    "deprecated_requirements_excluded_from_active_coverage": [
+      "RQ-006"
+    ],
+    "each_active_rq_requires": [
+      "ac_ids",
+      "ep_ids",
+      "val_ids",
+      "evidence_paths"
+    ],
+    "empty_links_are_invalid_for_verification": true
+  },
+  "requirements": [
+    {
+      "rq_id": "RQ-001",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-002",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-003",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-004",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-005",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-007",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-008",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-009",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-010",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-011",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-012",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-013",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-014",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-015",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-016",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-017",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-018",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-019",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-020",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-021",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-022",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-023",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-024",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-025",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-026",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-027",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-028",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-029",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-030",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-031",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-032",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-033",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-034",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-035",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-036",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-037",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-038",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-039",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-040",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-041",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-042",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-043",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-044",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-045",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-046",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-047",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-048",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-049",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-050",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-051",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-052",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-053",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-054",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-055",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-056",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-057",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-058",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-059",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-060",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-061",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-062",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-063",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-064",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-065",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-066",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-067",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-068",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-069",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-070",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-071",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-072",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-073",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-074",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-075",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-076",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-077",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-078",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-079",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-080",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-081",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-082",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-083",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-084",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-085",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-086",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-087",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-088",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-089",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-090",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-091",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-092",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-093",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-094",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-095",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-096",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-097",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-098",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-099",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-100",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-101",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-102",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-103",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-104",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-105",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-106",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-107",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-108",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-109",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-110",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-111",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-112",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-113",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-114",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-115",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-116",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-117",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-118",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-119",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-120",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-121",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-122",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-123",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    },
+    {
+      "rq_id": "RQ-124",
+      "ac_ids": [],
+      "ep_ids": [],
+      "val_ids": [],
+      "evidence_paths": [],
+      "status": "unmapped",
+      "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
+      "source": "docs/Apex 设计文档.md"
+    }
+  ],
+  "acceptance_criteria": [
+    {
+      "ac_id": "AC-001",
+      "title": "窗口内三端共享会话",
+      "given": "某项目窗口内任一客户端创建会话",
+      "when": "同项目的其他客户端连接该窗口的 `apexd`",
+      "then": "250 ms 内可查询/订阅到同一权威状态；跨项目窗口之间互不可见"
+    },
+    {
+      "ac_id": "AC-002",
+      "title": "Web 租约",
+      "given": "TUI 未持有 Web 租约",
+      "when": "探测 Web 端口",
+      "then": "无监听；获得租约后才开放 localhost；窗口关闭后再次探测应无监听"
+    },
+    {
+      "ac_id": "AC-003",
+      "title": "Spec 编码门",
+      "given": "Spec 未批准或批准已失效",
+      "when": "Agent 请求写代码",
+      "then": "在安全点前被拒绝/暂停并显示原因"
+    },
+    {
+      "ac_id": "AC-004",
+      "title": "Skip 审计",
+      "given": "用户显式执行 `/skip-spec`",
+      "when": "Run/Session 继续",
+      "then": "范围、理由、操作者、时间、需求、trace 均可查"
+    },
+    {
+      "ac_id": "AC-005",
+      "title": "Markdown 事实源",
+      "given": "外部编辑 Spec/Checkpoint/Memory",
+      "when": "watcher 对账",
+      "then": "投影更新；冲突三方合并或人工阻塞，不静默覆盖"
+    },
+    {
+      "ac_id": "AC-006",
+      "title": "静态权限",
+      "given": "命令含文件、网络或凭据副作用",
+      "when": "权限引擎评估",
+      "then": "不调用 LLM，并按模式/AST/白名单确定 allow/ask/deny"
+    },
+    {
+      "ac_id": "AC-007",
+      "title": "控制租约",
+      "given": "两个客户端同时请求控制",
+      "when": "先到客户端获得租约",
+      "then": "后到客户端只读，除非显式强制接管并审计"
+    },
+    {
+      "ac_id": "AC-008",
+      "title": "路径互斥",
+      "given": "并行写 Agent 的规范化路径重叠",
+      "when": "调度器分配任务",
+      "then": "冲突任务不并发，非冲突任务不受队首阻塞"
+    },
+    {
+      "ac_id": "AC-009",
+      "title": "崩溃恢复",
+      "given": "daemon 在 Tool 或 DAG 运行时**异常崩溃**",
+      "when": "重新打开该项目",
+      "then": "幂等节点可继续，未知副作用节点阻塞且历史完整"
+    },
+    {
+      "ac_id": "AC-010",
+      "title": "Checkpoint 重建",
+      "given": "Context 经 snip/prune/摘要",
+      "when": "从最新 Checkpoint 恢复",
+      "then": "用户原始意图、消息、Tool 结果、附件与状态可无损重建"
+    },
+    {
+      "ac_id": "AC-011",
+      "title": "状态重放",
+      "given": "选择确定性重放",
+      "when": "回放历史",
+      "then": "不重跑外部副作用；投影结果与已记录事实一致"
+    },
+    {
+      "ac_id": "AC-012",
+      "title": "再执行重放",
+      "given": "选择重新调用 LLM/Tool",
+      "when": "用户确认副作用清单",
+      "then": "使用原权限边界尽力复现，并生成新 Run/trace"
+    },
+    {
+      "ac_id": "AC-013",
+      "title": "Memory 召回",
+      "given": "存在中英文项目/全局记忆",
+      "when": "新 Turn 关键词匹配",
+      "then": "可检索、可解释引用时机、可删除与导出"
+    },
+    {
+      "ac_id": "AC-014",
+      "title": "Provider 可替换",
+      "given": "同一 Agent Profile 切换兼容模型",
+      "when": "执行文本/Tool 流程",
+      "then": "核心循环不依赖厂商类型，专属能力通过 capability 协商"
+    },
+    {
+      "ac_id": "AC-015",
+      "title": "多模态能力",
+      "given": "Desktop/Web 选择受支持 Provider",
+      "when": "上传/流式输入",
+      "then": "图片、文件、音频、语音或视频文件按能力降级；无实时视频入口"
+    },
+    {
+      "ac_id": "AC-016",
+      "title": "扩展信任",
+      "given": "外部 Skill/MCP/Plugin 首次发现或内容变化",
+      "when": "用户尝试启用",
+      "then": "未信任内容不自动执行，脚本/第三方插件处于受控边界"
+    },
+    {
+      "ac_id": "AC-017",
+      "title": "日志完整性",
+      "given": "会话产生日志并发生轮转",
+      "when": "离线验证日志段",
+      "then": "哈希链与 Ed25519 签名可验证，且 trace/event 可关联"
+    },
+    {
+      "ac_id": "AC-018",
+      "title": "归档生命周期",
+      "given": "会话超过 120/365 天",
+      "when": "打开该项目或窗口宿主退出前触发清理",
+      "then": "120 天归档可查/可恢复，365 天删除；Pinned Checkpoint 保留"
+    },
+    {
+      "ac_id": "AC-019",
+      "title": "版本兼容",
+      "given": "同一 Major 的旧 Apex 打开新 Schema",
+      "when": "读取未知结构",
+      "then": "不破坏数据，未知结构被保留，新能力只读或不可见"
+    },
+    {
+      "ac_id": "AC-020",
+      "title": "完成门",
+      "given": "所有实现任务结束",
+      "when": "触发最终验证",
+      "then": "生成 `verification.md`，覆盖率/E2E/NFR/风险证据满足策略后才可完成"
+    },
+    {
+      "ac_id": "AC-021",
+      "title": "自包含启动",
+      "given": "全新环境、未打开任何终端、未手动启动服务",
+      "when": "双击应用图标",
+      "then": "窗口出现并进入项目选择器；无终端窗口弹出；daemon 由宿主自动拉起"
+    },
+    {
+      "ac_id": "AC-022",
+      "title": "关窗收尾",
+      "given": "窗口内存在进行中的 Run 或 DAG",
+      "when": "用户关闭窗口",
+      "then": "到达安全点并写入 Checkpoint；daemon 退出；下次打开该项目提示可恢复中断"
+    },
+    {
+      "ac_id": "AC-023",
+      "title": "同项目防重开",
+      "given": "某项目已在窗口中打开",
+      "when": "再次双击应用并选择同一项目",
+      "then": "聚焦已有窗口，不创建第二个 daemon，不产生数据竞争"
+    },
+    {
+      "ac_id": "AC-024",
+      "title": "多项目并存隔离",
+      "given": "同时打开两个不同项目窗口",
+      "when": "在其中一个执行写操作与会话",
+      "then": "另一窗口状态不受影响；两者分片库与端点互不干扰"
+    },
+    {
+      "ac_id": "AC-025",
+      "title": "零配置首启",
+      "given": "无任何 Apex 配置或配置被损坏",
+      "when": "启动应用",
+      "then": "以默认值进入可用界面，给出非阻塞提示，不阻断启动"
+    },
+    {
+      "ac_id": "AC-026",
+      "title": "共享资源互斥",
+      "given": "两个项目窗口同时触发凭据写入或全局 Memory 写入",
+      "when": "并发执行",
+      "then": "经文件锁串行化，无写丢失与文件损坏；陈旧锁可被回收"
+    }
+  ],
+  "execution_units": [
+    {
+      "ep_id": "EP-0001",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S0",
+      "module": "M-01",
+      "status": "部分完成",
+      "title": "固化 Feature Spec 模板 frontmatter",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0002",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S0",
+      "module": "M-01",
+      "status": "已完成",
+      "title": "固化 `RQ`/`AC`/`EP`/`VAL` 编号规则",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0003",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S0",
+      "module": "M-01",
+      "status": "部分完成",
+      "title": "建立需求→AC→EP→验证追踪表",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0004",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S0",
+      "module": "M-01",
+      "status": "部分完成",
+      "title": "定义任务状态与阻塞原因",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0005",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S0",
+      "module": "M-01",
+      "status": "部分完成",
+      "title": "定义统一验证证据目录与命名",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0006",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S0",
+      "module": "M-01",
+      "status": "未开始",
+      "title": "建立代码、依赖、Schema、协议四类漂移检查",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0007",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S0",
+      "module": "M-01",
+      "status": "部分完成",
+      "title": "建立跨平台/Provider/客户端能力矩阵 fixture",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0008",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S0",
+      "module": "M-01",
+      "status": "部分完成",
+      "title": "建立内存 Port、假时钟、故障注入 harness 设计",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0009",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S0",
+      "module": "M-01",
+      "status": "未开始",
+      "title": "建立封装访问器 derive 宏 crate（`Getters`/`Setters`/`Builder`/`Data`/`GettersExt`）与 CI pub 字段拦截",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0010",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S0",
+      "module": "M-01",
+      "status": "未开始",
+      "title": "实现执行计划完整性 Lint",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0011",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S0",
+      "module": "M-01",
+      "status": "未开始",
+      "title": "统一模块编号、内部引用与文档锚点",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0101",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S1",
+      "module": "M-01",
+      "status": "需重构",
+      "title": "创建 workspace 根清单与成员列表",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0102",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S1",
+      "module": "M-01",
+      "status": "部分完成",
+      "title": "锁定 Rust toolchain 与 target 列表",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0103",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S1",
+      "module": "M-01",
+      "status": "部分完成",
+      "title": "配置 rustfmt/clippy/deny/audit 基线",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0104",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S1",
+      "module": "M-01",
+      "status": "未开始",
+      "title": "实现 UUIDv7/ContentHash/TraceId newtype",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0105",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S1",
+      "module": "M-01",
+      "status": "未开始",
+      "title": "实现时间、generation、幂等 key 值对象",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0106",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S1",
+      "module": "M-01",
+      "status": "未开始",
+      "title": "实现唯一状态枚举及稳定字符串编码",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0107",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S1",
+      "module": "M-01",
+      "status": "未开始",
+      "title": "实现 `ApexError` 与稳定错误码",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0108",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S1",
+      "module": "M-01",
+      "status": "未开始",
+      "title": "实现 `EventEnvelope` 与 NewEvent",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0109",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S1",
+      "module": "M-01",
+      "status": "未开始",
+      "title": "实现 `CommandContext`/Actor/Client identity",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0110",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S1",
+      "module": "M-01",
+      "status": "未开始",
+      "title": "实现 `apex-ports` Trait 空实现编译边界",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0111",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S1",
+      "module": "M-01",
+      "status": "未开始",
+      "title": "生成 Protobuf Rust/TypeScript 类型",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0112",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S1",
+      "module": "M-01",
+      "status": "未开始",
+      "title": "建立 Rust 单元/属性测试公共 fixture",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0201",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S2",
+      "module": "M-02",
+      "status": "未开始",
+      "title": "实现 Apex Home 路径解析",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0202",
+      "lifecycle": "active",
+      "version": "v0.3",
+      "stage": "S2",
+      "module": "M-14",
+      "status": "未开始",
+      "title": "实现 Home/config/key/runtime 权限诊断",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0203",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S2",
+      "module": "M-02",
+      "status": "未开始",
+      "title": "实现单实例 lock/mutex 与 stale 检查",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0204",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S2",
+      "module": "M-02",
+      "status": "未开始",
+      "title": "实现 Unix Domain Socket listener",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0205",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S2",
+      "module": "M-02",
+      "status": "未开始",
+      "title": "实现 Windows Named Pipe listener",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0206",
+      "lifecycle": "active",
+      "version": "v0.2",
+      "stage": "S2",
+      "module": "M-13",
+      "status": "未开始",
+      "title": "实现进程树 supervisor Port",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0207",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S2",
+      "module": "M-02",
+      "status": "未开始",
+      "title": "实现普通配置加载与未知字段保留",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0208",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S2",
+      "module": "M-02",
+      "status": "未开始",
+      "title": "实现 SQLite 打开、WAL 与 busy 策略",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0209",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S2",
+      "module": "M-02",
+      "status": "未开始",
+      "title": "实现 schema_meta/feature/migration 表",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0210",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S2",
+      "module": "M-02",
+      "status": "未开始",
+      "title": "实现 EventStore append 事务",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0211",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S2",
+      "module": "M-02",
+      "status": "未开始",
+      "title": "实现 session sequence 与 aggregate version",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0212",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S2",
+      "module": "M-02",
+      "status": "未开始",
+      "title": "实现 projector cursor 与投影批处理",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0213",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S2",
+      "module": "M-02",
+      "status": "未开始",
+      "title": "实现 Query Snapshot/keyset pagination",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0214",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S2",
+      "module": "M-02",
+      "status": "未开始",
+      "title": "实现 Markdown 原子写/文件 generation",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0215",
+      "lifecycle": "active",
+      "version": "v0.6",
+      "stage": "S2",
+      "module": "M-21",
+      "status": "未开始",
+      "title": "实现 watcher 防抖与自写去重",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0216",
+      "lifecycle": "active",
+      "version": "v0.6",
+      "stage": "S2",
+      "module": "M-21",
+      "status": "未开始",
+      "title": "实现 Markdown AST 三方合并",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0217",
+      "lifecycle": "active",
+      "version": "v0.2",
+      "stage": "S2",
+      "module": "M-12",
+      "status": "未开始",
+      "title": "实现 CAS put/open/verify",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0218",
+      "lifecycle": "active",
+      "version": "v0.2",
+      "stage": "S2",
+      "module": "M-12",
+      "status": "未开始",
+      "title": "实现文件事实索引与 reconcile marker",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0219",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S2",
+      "module": "M-02",
+      "status": "未开始",
+      "title": "实现 Session JSONL sink 与 10 MiB 轮转",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0220",
+      "lifecycle": "active",
+      "version": "v0.9",
+      "stage": "S2",
+      "module": "M-25a",
+      "status": "未开始",
+      "title": "实现每日系统文本日志与 60 天清理",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0221",
+      "lifecycle": "active",
+      "version": "v0.9",
+      "stage": "S2",
+      "module": "M-25a",
+      "status": "未开始",
+      "title": "实现日志 Ed25519 seal/verify/key rotation",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0222",
+      "lifecycle": "active",
+      "version": "v0.2",
+      "stage": "S2",
+      "module": "M-25a",
+      "status": "未开始",
+      "title": "实现 120/365 天 Session 归档与只读挂载",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0223",
+      "lifecycle": "active",
+      "version": "v0.9",
+      "stage": "S2",
+      "module": "M-25a",
+      "status": "未开始",
+      "title": "实现升级/恢复前 SQLite+文件备份",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0301",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S3",
+      "module": "M-03",
+      "status": "未开始",
+      "title": "实现 ClientHello/ServerHello 版本协商",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0302",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S3",
+      "module": "M-03",
+      "status": "未开始",
+      "title": "实现 gRPC interceptor 身份/trace/idempotency",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0303",
+      "lifecycle": "active",
+      "version": "v1.2",
+      "stage": "S3",
+      "module": "M-27",
+      "status": "未开始",
+      "title": "实现 REST DTO 到 Application Command 映射",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0304",
+      "lifecycle": "active",
+      "version": "v1.2",
+      "stage": "S3",
+      "module": "M-27",
+      "status": "未开始",
+      "title": "实现 WebSocket Subscribe/Close/错误帧",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0305",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S3",
+      "module": "M-09",
+      "status": "未开始",
+      "title": "实现 Snapshot + since_seq 合并器",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0306",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S3",
+      "module": "M-03",
+      "status": "未开始",
+      "title": "实现 durable prompt inbox",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0307",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S3",
+      "module": "M-03",
+      "status": "未开始",
+      "title": "实现 Session Actor 串行提升 Turn",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0308",
+      "lifecycle": "active",
+      "version": "v1.2",
+      "stage": "S3",
+      "module": "M-27",
+      "status": "未开始",
+      "title": "实现控制租约 acquire/renew/release",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0309",
+      "lifecycle": "active",
+      "version": "v1.2",
+      "stage": "S3",
+      "module": "M-27",
+      "status": "未开始",
+      "title": "实现 force takeover 与旧 token fencing",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0310",
+      "lifecycle": "active",
+      "version": "v1.2",
+      "stage": "S3",
+      "module": "M-27",
+      "status": "未开始",
+      "title": "实现 TUI 自动 Web enable lease",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0311",
+      "lifecycle": "active",
+      "version": "v1.2",
+      "stage": "S3",
+      "module": "M-27",
+      "status": "未开始",
+      "title": "实现一次性 token exchange 与短 Cookie",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0312",
+      "lifecycle": "active",
+      "version": "v1.2",
+      "stage": "S3",
+      "module": "M-27",
+      "status": "未开始",
+      "title": "实现 Origin/CSRF/CSP 校验",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0313",
+      "lifecycle": "active",
+      "version": "v0.4",
+      "stage": "S3",
+      "module": "M-18",
+      "status": "未开始",
+      "title": "实现 AgentActivityView durable/transient 投影",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0314",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S3",
+      "module": "M-03",
+      "status": "未开始",
+      "title": "实现 graceful shutdown/drain",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0315",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S3",
+      "module": "M-03",
+      "status": "未开始",
+      "title": "实现 Agent Loop 编排器",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0401",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S4",
+      "module": "M-05",
+      "status": "未开始",
+      "title": "实现 requirements.md schema/parser",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0402",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S4",
+      "module": "M-05",
+      "status": "未开始",
+      "title": "实现 design.md schema/parser",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0403",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S4",
+      "module": "M-05",
+      "status": "未开始",
+      "title": "实现 tasks.md schema/parser",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0404",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S4",
+      "module": "M-05",
+      "status": "未开始",
+      "title": "实现 verification.md renderer/schema",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0405",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S4",
+      "module": "M-05",
+      "status": "未开始",
+      "title": "实现 SpecStage/StageStatus 状态机",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0406",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S4",
+      "module": "M-05",
+      "status": "未开始",
+      "title": "实现 ApprovalRecord 内容 hash 绑定",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0407",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S4",
+      "module": "M-05",
+      "status": "未开始",
+      "title": "实现上游变化失效传播图",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0408",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S4",
+      "module": "M-05",
+      "status": "未开始",
+      "title": "实现 `/skip-spec` parser 与 scope 校验",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0409",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S4",
+      "module": "M-05",
+      "status": "未开始",
+      "title": "实现 SkipGrant 审计事件与限制",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0410",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S4",
+      "module": "M-05",
+      "status": "未开始",
+      "title": "实现规则 profile registry/version hash",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0411",
+      "lifecycle": "active",
+      "version": "v0.3",
+      "stage": "S4",
+      "module": "M-15",
+      "status": "未开始",
+      "title": "实现 PostToolUse 轻量安全/格式/语法门",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0412",
+      "lifecycle": "active",
+      "version": "v0.3",
+      "stage": "S4",
+      "module": "M-15",
+      "status": "未开始",
+      "title": "实现增量批次重型检查编排",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0413",
+      "lifecycle": "active",
+      "version": "v0.3",
+      "stage": "S4",
+      "module": "M-15",
+      "status": "未开始",
+      "title": "实现受限自动修复子任务",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0414",
+      "lifecycle": "active",
+      "version": "v0.3",
+      "stage": "S4",
+      "module": "M-15",
+      "status": "未开始",
+      "title": "实现最终 Verification evidence 聚合",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0415",
+      "lifecycle": "active",
+      "version": "v0.3",
+      "stage": "S4",
+      "module": "M-15",
+      "status": "未开始",
+      "title": "实现用户确认/自动完成策略",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0501",
+      "lifecycle": "active",
+      "version": "v0.3",
+      "stage": "S5",
+      "module": "M-14",
+      "status": "未开始",
+      "title": "定义 CommandAst→CommandSemantics IR",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0502",
+      "lifecycle": "active",
+      "version": "v0.3",
+      "stage": "S5",
+      "module": "M-14",
+      "status": "未开始",
+      "title": "实现 sh/bash/zsh tree-sitter parser",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0503",
+      "lifecycle": "active",
+      "version": "v0.3",
+      "stage": "S5",
+      "module": "M-14",
+      "status": "未开始",
+      "title": "实现 PowerShell 7 parser adapter",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0504",
+      "lifecycle": "active",
+      "version": "v0.3",
+      "stage": "S5",
+      "module": "M-14",
+      "status": "未开始",
+      "title": "实现 cmd.exe parser adapter",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0505",
+      "lifecycle": "active",
+      "version": "v0.3",
+      "stage": "S5",
+      "module": "M-14",
+      "status": "未开始",
+      "title": "实现 arity rule registry",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0506",
+      "lifecycle": "active",
+      "version": "v0.3",
+      "stage": "S5",
+      "module": "M-14",
+      "status": "未开始",
+      "title": "实现路径 canonicalization 与 Scope overlap",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0507",
+      "lifecycle": "active",
+      "version": "v0.3",
+      "stage": "S5",
+      "module": "M-14",
+      "status": "未开始",
+      "title": "实现网络目标规范化与重定向复核",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0508",
+      "lifecycle": "active",
+      "version": "v0.3",
+      "stage": "S5",
+      "module": "M-14",
+      "status": "未开始",
+      "title": "实现环境/凭据访问分类与清洗",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0509",
+      "lifecycle": "active",
+      "version": "v0.3",
+      "stage": "S5",
+      "module": "M-14",
+      "status": "未开始",
+      "title": "实现 Trust→Mode→HardDeny 单调决策顺序",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0510",
+      "lifecycle": "active",
+      "version": "v0.3",
+      "stage": "S5",
+      "module": "M-14",
+      "status": "未开始",
+      "title": "实现 plan/ask/allow 模式矩阵",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0511",
+      "lifecycle": "active",
+      "version": "v0.3",
+      "stage": "S5",
+      "module": "M-17",
+      "status": "未开始",
+      "title": "实现 Once/Run/Session/Project grant 存储",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0512",
+      "lifecycle": "active",
+      "version": "v0.3",
+      "stage": "S5",
+      "module": "M-17",
+      "status": "未开始",
+      "title": "实现 Project Trust Gate",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0513",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S5",
+      "module": "M-07",
+      "status": "未开始",
+      "title": "实现 PermissionVerdict evidence/audit",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0514",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S5",
+      "module": "M-06",
+      "status": "未开始",
+      "title": "实现 Tool descriptor/schema/副作用声明",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0515",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S5",
+      "module": "M-06",
+      "status": "未开始",
+      "title": "实现 Tool Gateway prepare→gate→execute pipeline",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0516",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S5",
+      "module": "M-06",
+      "status": "未开始",
+      "title": "实现 Tool result bounded output/receipt",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0517",
+      "lifecycle": "active",
+      "version": "v0.2",
+      "stage": "S5",
+      "module": "M-13",
+      "status": "未开始",
+      "title": "实现 Unix PTY 持久终端",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0518",
+      "lifecycle": "active",
+      "version": "v0.2",
+      "stage": "S5",
+      "module": "M-13",
+      "status": "未开始",
+      "title": "实现 Windows ConPTY 持久终端",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0519",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S5",
+      "module": "M-06",
+      "status": "未开始",
+      "title": "实现一次性非交互命令模式",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0520",
+      "lifecycle": "active",
+      "version": "v0.2",
+      "stage": "S5",
+      "module": "M-13",
+      "status": "未开始",
+      "title": "实现共享逻辑终端与 Agent channel attribution",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0521",
+      "lifecycle": "active",
+      "version": "v0.2",
+      "stage": "S5",
+      "module": "M-13",
+      "status": "未开始",
+      "title": "实现终端输出 ring buffer/backpressure",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0522",
+      "lifecycle": "active",
+      "version": "v0.2",
+      "stage": "S5",
+      "module": "M-13",
+      "status": "未开始",
+      "title": "实现中断 Tool recovery 分类",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0523",
+      "lifecycle": "active",
+      "version": "v0.3",
+      "stage": "S5",
+      "module": "M-14",
+      "status": "未开始",
+      "title": "接入可选 OS sandbox capability",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0524",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S5",
+      "module": "M-06",
+      "status": "未开始",
+      "title": "实现 Read 与 Search 内置工具适配器",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0525",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S5",
+      "module": "M-06",
+      "status": "未开始",
+      "title": "实现 Edit 与 Patch 内置工具适配器",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0526",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S5",
+      "module": "M-06",
+      "status": "未开始",
+      "title": "实现 Shell 工具准备适配器",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0601",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S6",
+      "module": "M-08",
+      "status": "未开始",
+      "title": "实现 Provider-aware token estimator",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0602",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S6",
+      "module": "M-08",
+      "status": "未开始",
+      "title": "实现 Stable/Turn/Retrieved/Recovery Source",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0603",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S6",
+      "module": "M-08",
+      "status": "未开始",
+      "title": "实现 ContextEpoch 构建与替换",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0604",
+      "lifecycle": "active",
+      "version": "v0.2",
+      "stage": "S6",
+      "module": "M-11",
+      "status": "未开始",
+      "title": "实现 60/70/80/90 watermark 状态",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0605",
+      "lifecycle": "active",
+      "version": "v0.2",
+      "stage": "S6",
+      "module": "M-11",
+      "status": "未开始",
+      "title": "实现 Tool-specific SnipHinter",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0606",
+      "lifecycle": "active",
+      "version": "v0.2",
+      "stage": "S6",
+      "module": "M-11",
+      "status": "未开始",
+      "title": "实现 prune 引用占位与再取回",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0607",
+      "lifecycle": "active",
+      "version": "v0.2",
+      "stage": "S6",
+      "module": "M-11",
+      "status": "未开始",
+      "title": "实现独立摘要 Provider 与当前模型 fallback",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0608",
+      "lifecycle": "active",
+      "version": "v0.2",
+      "stage": "S6",
+      "module": "M-11",
+      "status": "未开始",
+      "title": "实现 Checkpoint Manifest schema",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0609",
+      "lifecycle": "active",
+      "version": "v0.2",
+      "stage": "S6",
+      "module": "M-11",
+      "status": "未开始",
+      "title": "实现 Checkpoint chunk/attachment CAS writer",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0610",
+      "lifecycle": "active",
+      "version": "v0.2",
+      "stage": "S6",
+      "module": "M-11",
+      "status": "未开始",
+      "title": "接入 Turn/损处理/暂停/高风险写触发点",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0611",
+      "lifecycle": "active",
+      "version": "v0.2",
+      "stage": "S6",
+      "module": "M-11",
+      "status": "未开始",
+      "title": "实现 Checkpoint reconstruction",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0612",
+      "lifecycle": "active",
+      "version": "v0.2",
+      "stage": "S6",
+      "module": "M-11",
+      "status": "未开始",
+      "title": "实现 Checkpoint pin/120/365 retention",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0613",
+      "lifecycle": "active",
+      "version": "v0.6",
+      "stage": "S6",
+      "module": "M-21",
+      "status": "未开始",
+      "title": "实现 Memory Markdown parser/writer",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0614",
+      "lifecycle": "active",
+      "version": "v0.6",
+      "stage": "S6",
+      "module": "M-21",
+      "status": "未开始",
+      "title": "实现 Memory sensitive proposal gate",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0615",
+      "lifecycle": "active",
+      "version": "v0.6",
+      "stage": "S6",
+      "module": "M-21",
+      "status": "未开始",
+      "title": "实现 FTS5 unicode61/jieba tokenizer adapter",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0616",
+      "lifecycle": "active",
+      "version": "v0.6",
+      "stage": "S6",
+      "module": "M-21",
+      "status": "未开始",
+      "title": "实现召回排序、引用时机与 trace 记录",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0617",
+      "lifecycle": "active",
+      "version": "v0.6",
+      "stage": "S6",
+      "module": "M-21",
+      "status": "未开始",
+      "title": "实现 Memory delete/export/tombstone",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0618",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S6",
+      "module": "M-08",
+      "status": "未开始",
+      "title": "实现临时上下文溢出降级策略",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0701",
+      "lifecycle": "active",
+      "version": "v0.4",
+      "stage": "S7",
+      "module": "M-16",
+      "status": "未开始",
+      "title": "实现 AgentProfile 与 capability ceiling",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0702",
+      "lifecycle": "active",
+      "version": "v0.4",
+      "stage": "S7",
+      "module": "M-16",
+      "status": "未开始",
+      "title": "实现父 Agent→Subagent Provider/model 继承",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0703",
+      "lifecycle": "active",
+      "version": "v0.4",
+      "stage": "S7",
+      "module": "M-16",
+      "status": "未开始",
+      "title": "实现 exact_task_description/write_paths 校验",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0704",
+      "lifecycle": "active",
+      "version": "v0.7",
+      "stage": "S7",
+      "module": "M-22",
+      "status": "未开始",
+      "title": "实现 workflow YAML schema",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0705",
+      "lifecycle": "active",
+      "version": "v0.7",
+      "stage": "S7",
+      "module": "M-22",
+      "status": "未开始",
+      "title": "实现 tasks.md→VersionedDagIr 编译",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0706",
+      "lifecycle": "active",
+      "version": "v0.7",
+      "stage": "S7",
+      "module": "M-22",
+      "status": "未开始",
+      "title": "实现 Ready Queue 稳定排序",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0707",
+      "lifecycle": "active",
+      "version": "v0.4",
+      "stage": "S7",
+      "module": "M-16",
+      "status": "未开始",
+      "title": "实现全局/写 Agent/Provider 限流",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0708",
+      "lifecycle": "active",
+      "version": "v0.4",
+      "stage": "S7",
+      "module": "M-16",
+      "status": "未开始",
+      "title": "将 CanonicalPathScope 接入 Scheduler",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0709",
+      "lifecycle": "active",
+      "version": "v0.4",
+      "stage": "S7",
+      "module": "M-16",
+      "status": "未开始",
+      "title": "实现 Claim lease TTL/fencing",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0710",
+      "lifecycle": "active",
+      "version": "v0.4",
+      "stage": "S7",
+      "module": "M-16",
+      "status": "未开始",
+      "title": "实现父 Agent write_paths 预留",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0711",
+      "lifecycle": "active",
+      "version": "v0.7",
+      "stage": "S7",
+      "module": "M-22",
+      "status": "未开始",
+      "title": "实现路径扩展暂停/重新审批",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0712",
+      "lifecycle": "active",
+      "version": "v0.7",
+      "stage": "S7",
+      "module": "M-22",
+      "status": "未开始",
+      "title": "实现 DAG 显式 mailbox edge",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0713",
+      "lifecycle": "active",
+      "version": "v0.7",
+      "stage": "S7",
+      "module": "M-22",
+      "status": "未开始",
+      "title": "实现父 Agent 结构化汇聚",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0714",
+      "lifecycle": "active",
+      "version": "v0.7",
+      "stage": "S7",
+      "module": "M-22",
+      "status": "未开始",
+      "title": "实现受限 Merge Subagent 三方合并",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0715",
+      "lifecycle": "active",
+      "version": "v0.7",
+      "stage": "S7",
+      "module": "M-22",
+      "status": "未开始",
+      "title": "实现 Node 状态 reducer",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0716",
+      "lifecycle": "active",
+      "version": "v0.7",
+      "stage": "S7",
+      "module": "M-22",
+      "status": "未开始",
+      "title": "实现 DAG pause/resume 安全点",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0717",
+      "lifecycle": "active",
+      "version": "v0.7",
+      "stage": "S7",
+      "module": "M-22",
+      "status": "未开始",
+      "title": "实现崩溃恢复幂等分类",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0718",
+      "lifecycle": "active",
+      "version": "v0.7",
+      "stage": "S7",
+      "module": "M-23",
+      "status": "未开始",
+      "title": "将 Snapshot 接入 Tool/Node pre-write",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0719",
+      "lifecycle": "active",
+      "version": "v0.7",
+      "stage": "S7",
+      "module": "M-23",
+      "status": "未开始",
+      "title": "实现状态确定性重放 executor",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0720",
+      "lifecycle": "active",
+      "version": "v0.7",
+      "stage": "S7",
+      "module": "M-23",
+      "status": "未开始",
+      "title": "实现再执行重放副作用清单与整体确认",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0721",
+      "lifecycle": "active",
+      "version": "v0.7",
+      "stage": "S7",
+      "module": "M-23",
+      "status": "未开始",
+      "title": "实现补偿式部分回滚",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0722",
+      "lifecycle": "active",
+      "version": "v0.7",
+      "stage": "S7",
+      "module": "M-23",
+      "status": "未开始",
+      "title": "记录调度决定/limit snapshot/ready hash",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0723",
+      "lifecycle": "active",
+      "version": "v0.7",
+      "stage": "S7",
+      "module": "M-22",
+      "status": "未开始",
+      "title": "将限流器接入 DAG 调度器",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0801",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S8",
+      "module": "M-04",
+      "status": "未开始",
+      "title": "实现 Provider Core ModelRequest/Frame",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0802",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S8",
+      "module": "M-04",
+      "status": "未开始",
+      "title": "实现 capability schema/negotiation",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0803",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S8",
+      "module": "M-04",
+      "status": "未开始",
+      "title": "实现 Anthropic adapter",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0804",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S8",
+      "module": "M-04",
+      "status": "未开始",
+      "title": "实现 OpenAI adapter",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0805",
+      "lifecycle": "active",
+      "version": "v0.8",
+      "stage": "S8",
+      "module": "M-24",
+      "status": "未开始",
+      "title": "实现 DeepSeek adapter",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0806",
+      "lifecycle": "active",
+      "version": "v0.8",
+      "stage": "S8",
+      "module": "M-24",
+      "status": "未开始",
+      "title": "实现 Kimi adapter",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0807",
+      "lifecycle": "active",
+      "version": "v0.8",
+      "stage": "S8",
+      "module": "M-24",
+      "status": "未开始",
+      "title": "实现 OpenAI-Compatible adapter",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0808",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S8",
+      "module": "M-04",
+      "status": "未开始",
+      "title": "实现 providers.toml profile parser",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0809",
+      "lifecycle": "superseded",
+      "version": "v0.1",
+      "stage": "S8",
+      "module": "M-04",
+      "status": "未开始",
+      "title": "实现 SecretResolver 与 Provider Secret Firewall",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0810",
+      "lifecycle": "active",
+      "version": "v0.4",
+      "stage": "S8",
+      "module": "M-04",
+      "status": "未开始",
+      "title": "接入 Session/Profile/DAG Provider 继承",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0811",
+      "lifecycle": "active",
+      "version": "v0.8",
+      "stage": "S8",
+      "module": "M-24",
+      "status": "未开始",
+      "title": "实现默认关闭的 failover chain",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0812",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S8",
+      "module": "M-04",
+      "status": "未开始",
+      "title": "实现 retry/backoff/deadline/cancel",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0813",
+      "lifecycle": "active",
+      "version": "v0.8",
+      "stage": "S8",
+      "module": "M-24",
+      "status": "未开始",
+      "title": "实现 Artifact MIME/大小/转码 Port",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0814",
+      "lifecycle": "active",
+      "version": "v1.1",
+      "stage": "S8",
+      "module": "M-26",
+      "status": "未开始",
+      "title": "实现 Desktop/Web audio 与双向语音 Port",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0815",
+      "lifecycle": "active",
+      "version": "v0.8",
+      "stage": "S8",
+      "module": "M-24",
+      "status": "未开始",
+      "title": "实现视频文件抽取与实时视频硬禁",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0816",
+      "lifecycle": "active",
+      "version": "v0.8",
+      "stage": "S8",
+      "module": "M-24",
+      "status": "未开始",
+      "title": "建立各 Adapter contract fixture/脱敏回放",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0817",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S8",
+      "module": "M-04",
+      "status": "未开始",
+      "title": "实现 SecretResolver 凭据解析接口",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0818",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S8",
+      "module": "M-04",
+      "status": "未开始",
+      "title": "实现 Provider Secret Firewall 与日志脱敏",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0819",
+      "lifecycle": "active",
+      "version": "v0.3",
+      "stage": "S5",
+      "module": "M-14",
+      "status": "未开始",
+      "title": "接入 AST 环境变量与秘密策略",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0901",
+      "lifecycle": "active",
+      "version": "v0.5",
+      "stage": "S9",
+      "module": "M-19a",
+      "status": "未开始",
+      "title": "实现 SkillSource/Scanner Trait",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0902",
+      "lifecycle": "active",
+      "version": "v0.5",
+      "stage": "S9",
+      "module": "M-19a",
+      "status": "未开始",
+      "title": "实现 Claude user/project 扫描器",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0903",
+      "lifecycle": "active",
+      "version": "v0.5",
+      "stage": "S9",
+      "module": "M-19a",
+      "status": "未开始",
+      "title": "实现 Codex user/project 扫描器",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0904",
+      "lifecycle": "active",
+      "version": "v0.5",
+      "stage": "S9",
+      "module": "M-19a",
+      "status": "未开始",
+      "title": "实现 Apex user/project 扫描器",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0905",
+      "lifecycle": "active",
+      "version": "v0.5",
+      "stage": "S9",
+      "module": "M-19a",
+      "status": "未开始",
+      "title": "实现 `apex:` frontmatter 阶段绑定",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0906",
+      "lifecycle": "active",
+      "version": "v0.5",
+      "stage": "S9",
+      "module": "M-19a",
+      "status": "未开始",
+      "title": "实现 Skill content hash/signature trust",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0907",
+      "lifecycle": "active",
+      "version": "v0.5",
+      "stage": "S9",
+      "module": "M-19a",
+      "status": "未开始",
+      "title": "将 Skill script/Tool 绑定 Tool Gateway",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0908",
+      "lifecycle": "active",
+      "version": "v0.5",
+      "stage": "S9",
+      "module": "M-19b",
+      "status": "未开始",
+      "title": "实现 McpSource/Config adapter Trait",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0909",
+      "lifecycle": "active",
+      "version": "v0.5",
+      "stage": "S9",
+      "module": "M-19b",
+      "status": "未开始",
+      "title": "实现 Claude/Cursor/VS Code/Codex/Apex scanner",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0910",
+      "lifecycle": "active",
+      "version": "v0.5",
+      "stage": "S9",
+      "module": "M-19b",
+      "status": "未开始",
+      "title": "实现 MCP fingerprint/provenance 合并",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0911",
+      "lifecycle": "active",
+      "version": "v0.5",
+      "stage": "S9",
+      "module": "M-19b",
+      "status": "未开始",
+      "title": "实现 Apex enable override 与显式来源同步",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0912",
+      "lifecycle": "active",
+      "version": "v0.5",
+      "stage": "S9",
+      "module": "M-19b",
+      "status": "未开始",
+      "title": "实现 MCP start/stop/stdio 进程树生命周期",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0913",
+      "lifecycle": "active",
+      "version": "v0.5",
+      "stage": "S9",
+      "module": "M-19b",
+      "status": "未开始",
+      "title": "实现 MCP OAuth state/PKCE/loopback",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0914",
+      "lifecycle": "active",
+      "version": "v0.5",
+      "stage": "S9",
+      "module": "M-20",
+      "status": "未开始",
+      "title": "实现 Plugin C ABI manifest/capability",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0915",
+      "lifecycle": "active",
+      "version": "v0.9",
+      "stage": "S9",
+      "module": "M-20",
+      "status": "未开始",
+      "title": "实现第三方 Plugin Host RPC/supervisor",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0916",
+      "lifecycle": "active",
+      "version": "v0.9",
+      "stage": "S9",
+      "module": "M-20",
+      "status": "未开始",
+      "title": "实现官方签名进程内 allowlist",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-0917",
+      "lifecycle": "active",
+      "version": "v0.9",
+      "stage": "S9",
+      "module": "M-20",
+      "status": "未开始",
+      "title": "实现本地/Git/文件包安装与安全解包",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1001",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S10",
+      "module": "M-09",
+      "status": "未开始",
+      "title": "建立 TUI 测试 demo 与连接/重连骨架",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1002",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S10",
+      "module": "M-09",
+      "status": "未开始",
+      "title": "实现 TUI Workspace/Session 列表",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1003",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S10",
+      "module": "M-09",
+      "status": "未开始",
+      "title": "实现 TUI Prompt/Admission/Turn 视图",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1004",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S10",
+      "module": "M-10",
+      "status": "未开始",
+      "title": "实现 TUI Spec/Approval/Skip 面板",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1005",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S10",
+      "module": "M-10",
+      "status": "未开始",
+      "title": "实现 TUI Permission Ask/Allow/Deny UI",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1006",
+      "lifecycle": "active",
+      "version": "v0.4",
+      "stage": "S10",
+      "module": "M-18",
+      "status": "未开始",
+      "title": "实现 TUI Agent/Skill/MCP/Subagent 活动面板",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1007",
+      "lifecycle": "active",
+      "version": "v0.7",
+      "stage": "S10",
+      "module": "M-22",
+      "status": "未开始",
+      "title": "实现 TUI DAG/Claim/Pause/Resume UI",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1008",
+      "lifecycle": "active",
+      "version": "v0.2",
+      "stage": "S10",
+      "module": "M-11",
+      "status": "未开始",
+      "title": "实现 TUI Checkpoint/Memory UI",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1009",
+      "lifecycle": "active",
+      "version": "v0.2",
+      "stage": "S10",
+      "module": "M-09",
+      "status": "未开始",
+      "title": "实现 TUI 共享逻辑终端 UI",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1010",
+      "lifecycle": "active",
+      "version": "v1.2",
+      "stage": "S10",
+      "module": "M-27",
+      "status": "未开始",
+      "title": "实现 TUI 自动 Web lease lifecycle",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1011",
+      "lifecycle": "active",
+      "version": "v1.1",
+      "stage": "S10",
+      "module": "M-26",
+      "status": "未开始",
+      "title": "建立 Vue domain stores/reducers",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1012",
+      "lifecycle": "active",
+      "version": "v1.1",
+      "stage": "S10",
+      "module": "M-26",
+      "status": "未开始",
+      "title": "实现共享 Platform Adapter interface",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1013",
+      "lifecycle": "active",
+      "version": "v1.1",
+      "stage": "S10",
+      "module": "M-26",
+      "status": "未开始",
+      "title": "实现 Tauri gRPC bridge",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1014",
+      "lifecycle": "active",
+      "version": "v1.2",
+      "stage": "S10",
+      "module": "M-27",
+      "status": "未开始",
+      "title": "实现 Web auth bootstrap/token cleanup",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1015",
+      "lifecycle": "active",
+      "version": "v1.1",
+      "stage": "S10",
+      "module": "M-26",
+      "status": "未开始",
+      "title": "实现共享 Session/Turn/Spec 页面",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1016",
+      "lifecycle": "active",
+      "version": "v1.2",
+      "stage": "S10",
+      "module": "M-27",
+      "status": "未开始",
+      "title": "实现 Web Permission/Control takeover 页面",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1017",
+      "lifecycle": "active",
+      "version": "v1.2",
+      "stage": "S10",
+      "module": "M-27",
+      "status": "未开始",
+      "title": "实现 Web Agent/DAG/Activity 页面",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1018",
+      "lifecycle": "active",
+      "version": "v1.1",
+      "stage": "S10",
+      "module": "M-26",
+      "status": "未开始",
+      "title": "实现 Desktop/Web Checkpoint/Memory 页面",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1019",
+      "lifecycle": "active",
+      "version": "v1.1",
+      "stage": "S10",
+      "module": "M-26",
+      "status": "未开始",
+      "title": "实现三端 Session/System Log 页面",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1020",
+      "lifecycle": "active",
+      "version": "v1.1",
+      "stage": "S10",
+      "module": "M-26",
+      "status": "未开始",
+      "title": "实现 Desktop audio/file picker",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1021",
+      "lifecycle": "active",
+      "version": "v1.2",
+      "stage": "S10",
+      "module": "M-27",
+      "status": "未开始",
+      "title": "实现 Web audio/file upload",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1022",
+      "lifecycle": "superseded",
+      "version": "v1.1",
+      "stage": "S10",
+      "module": "M-26",
+      "status": "未开始",
+      "title": "实现 Desktop/Web 视频文件引用",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1023",
+      "lifecycle": "active",
+      "version": "v0.9",
+      "stage": "S10",
+      "module": "M-09",
+      "status": "未开始",
+      "title": "完成中文/英文 message key 覆盖",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1024",
+      "lifecycle": "active",
+      "version": "v1.1",
+      "stage": "S10",
+      "module": "M-26",
+      "status": "未开始",
+      "title": "完成键盘/屏幕阅读器/颜色无关状态",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1025",
+      "lifecycle": "active",
+      "version": "v1.1",
+      "stage": "S10",
+      "module": "M-26",
+      "status": "未开始",
+      "title": "完成 Vue XSS/CSRF/URL/Secret 安全规则",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1026",
+      "lifecycle": "active",
+      "version": "v1.1",
+      "stage": "S10",
+      "module": "M-26",
+      "status": "未开始",
+      "title": "添加 TUI/Vue/Platform 单元组件测试",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1027",
+      "lifecycle": "active",
+      "version": "v1.3",
+      "stage": "S10",
+      "module": "M-28",
+      "status": "未开始",
+      "title": "添加三端等价性 E2E harness",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1028",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S10",
+      "module": "M-09",
+      "status": "未开始",
+      "title": "实现原生 TUI 窗口与像素后端",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1029",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S10",
+      "module": "M-09",
+      "status": "未开始",
+      "title": "实现项目选择、Daemon 拉起与 endpoint-ready 协议",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1030",
+      "lifecycle": "active",
+      "version": "v0.5",
+      "stage": "S10",
+      "module": "M-18",
+      "status": "未开始",
+      "title": "实现扩展管理面板",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1031",
+      "lifecycle": "active",
+      "version": "v0.6",
+      "stage": "S10",
+      "module": "M-21",
+      "status": "未开始",
+      "title": "实现 Memory 管理 UI",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1032",
+      "lifecycle": "active",
+      "version": "v1.1",
+      "stage": "S10",
+      "module": "M-26",
+      "status": "未开始",
+      "title": "实现 Desktop 视频文件引用界面",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1033",
+      "lifecycle": "active",
+      "version": "v1.2",
+      "stage": "S10",
+      "module": "M-27",
+      "status": "未开始",
+      "title": "实现 Web 视频文件引用界面",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1034",
+      "lifecycle": "active",
+      "version": "v1.3",
+      "stage": "S10",
+      "module": "M-28",
+      "status": "未开始",
+      "title": "实现 Trinity 能力矩阵验证器",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1035",
+      "lifecycle": "active",
+      "version": "v1.3",
+      "stage": "S10",
+      "module": "M-28",
+      "status": "未开始",
+      "title": "关闭 Trinity 等价性 Gate 与证据包",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1036",
+      "lifecycle": "active",
+      "version": "v1.2",
+      "stage": "S10",
+      "module": "M-27",
+      "status": "未开始",
+      "title": "建立 Web 客户端单元与组件测试套件",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1037",
+      "lifecycle": "active",
+      "version": "v1.2",
+      "stage": "S10",
+      "module": "M-27",
+      "status": "未开始",
+      "title": "建立 Web UI 安全回归套件",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1101",
+      "lifecycle": "active",
+      "version": "v0.9",
+      "stage": "S11",
+      "module": "M-25a",
+      "status": "未开始",
+      "title": "建立 macOS x86/arm 构建流水线",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1102",
+      "lifecycle": "active",
+      "version": "v0.9",
+      "stage": "S11",
+      "module": "M-25a",
+      "status": "未开始",
+      "title": "建立 Windows x86/arm 构建流水线",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1103",
+      "lifecycle": "active",
+      "version": "v0.9",
+      "stage": "S11",
+      "module": "M-25a",
+      "status": "未开始",
+      "title": "建立 Linux x86/arm 构建流水线",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1104",
+      "lifecycle": "active",
+      "version": "v0.9",
+      "stage": "S11",
+      "module": "M-25a",
+      "status": "未开始",
+      "title": "实现安装/卸载/用户数据保留",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1105",
+      "lifecycle": "active",
+      "version": "v0.9",
+      "stage": "S11",
+      "module": "M-25a",
+      "status": "未开始",
+      "title": "实现 signed update manifest 与 SBOM",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1106",
+      "lifecycle": "active",
+      "version": "v0.9",
+      "stage": "S11",
+      "module": "M-25a",
+      "status": "未开始",
+      "title": "实现 Stable/Nightly/Development/Enterprise policy",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1107",
+      "lifecycle": "active",
+      "version": "v0.9",
+      "stage": "S11",
+      "module": "M-25a",
+      "status": "未开始",
+      "title": "实现 apex-updater 安全点替换/回滚",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1108",
+      "lifecycle": "active",
+      "version": "v0.9",
+      "stage": "S11",
+      "module": "M-25a",
+      "status": "未开始",
+      "title": "完成同 Major old/new schema fixture",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1109",
+      "lifecycle": "active",
+      "version": "v0.9",
+      "stage": "S11",
+      "module": "M-25a",
+      "status": "未开始",
+      "title": "完成迁移中断/恢复/备份恢复演练",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1110",
+      "lifecycle": "active",
+      "version": "v0.9",
+      "stage": "S11",
+      "module": "M-25a",
+      "status": "未开始",
+      "title": "完成 60/120/365 retention scheduler",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1111",
+      "lifecycle": "active",
+      "version": "v0.9",
+      "stage": "S11",
+      "module": "M-25a",
+      "status": "未开始",
+      "title": "完成 `apexd doctor --read-only`",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1112",
+      "lifecycle": "active",
+      "version": "v0.9",
+      "stage": "S11",
+      "module": "M-25a",
+      "status": "未开始",
+      "title": "完成无遥测网络基线与诊断包",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1113",
+      "lifecycle": "active",
+      "version": "v0.9",
+      "stage": "S11",
+      "module": "M-25a",
+      "status": "未开始",
+      "title": "建立启动/Admission/Event/Page/FTS/RSS baseline",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1114",
+      "lifecycle": "active",
+      "version": "v0.9",
+      "stage": "S11",
+      "module": "M-25a",
+      "status": "未开始",
+      "title": "建立并发/限流/背压压力场景",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1115",
+      "lifecycle": "active",
+      "version": "v0.9",
+      "stage": "S11",
+      "module": "M-25a",
+      "status": "未开始",
+      "title": "建立 DB/文件/Tool/DAG/Provider chaos 场景",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1116",
+      "lifecycle": "superseded",
+      "version": "v0.9",
+      "stage": "S11",
+      "module": "M-25b",
+      "status": "未开始",
+      "title": "完成 AST/path/network/Secret/Plugin/Web 安全审计",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1117",
+      "lifecycle": "superseded",
+      "version": "v0.9",
+      "stage": "S11",
+      "module": "M-25b",
+      "status": "未开始",
+      "title": "完成覆盖率、mutation、fuzz、E2E 门",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1118",
+      "lifecycle": "active",
+      "version": "v1.0",
+      "stage": "S11",
+      "module": "M-25b",
+      "status": "未开始",
+      "title": "生成各 Feature 最终 verification.md",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1119",
+      "lifecycle": "active",
+      "version": "v1.0",
+      "stage": "S11",
+      "module": "M-25b",
+      "status": "未开始",
+      "title": "生成 Release Candidate 与完整回滚包",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1120",
+      "lifecycle": "active",
+      "version": "v1.0",
+      "stage": "S11",
+      "module": "M-25b",
+      "status": "未开始",
+      "title": "执行独立发布评审并封存证据",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1121",
+      "lifecycle": "active",
+      "version": "v1.1",
+      "stage": "S11",
+      "module": "M-26",
+      "status": "未开始",
+      "title": "建立 Desktop 签名与安装包流水线",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1122",
+      "lifecycle": "active",
+      "version": "v1.2",
+      "stage": "S11",
+      "module": "M-27",
+      "status": "未开始",
+      "title": "建立 Web 静态资源与嵌入式分发流水线",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1123",
+      "lifecycle": "active",
+      "version": "v0.9",
+      "stage": "S11",
+      "module": "M-25b",
+      "status": "未开始",
+      "title": "执行 AST、路径与终端安全审计",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1124",
+      "lifecycle": "active",
+      "version": "v0.9",
+      "stage": "S11",
+      "module": "M-25b",
+      "status": "未开始",
+      "title": "执行 Secret 与持久化数据安全审计",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1125",
+      "lifecycle": "active",
+      "version": "v0.9",
+      "stage": "S11",
+      "module": "M-25b",
+      "status": "未开始",
+      "title": "执行扩展与供应链安全审计",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1126",
+      "lifecycle": "active",
+      "version": "v1.2",
+      "stage": "S11",
+      "module": "M-25b",
+      "status": "未开始",
+      "title": "执行 Web 与客户端边界安全审计",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1127",
+      "lifecycle": "active",
+      "version": "v0.9",
+      "stage": "S11",
+      "module": "M-25b",
+      "status": "未开始",
+      "title": "建立覆盖率与变异测试 Gate",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1128",
+      "lifecycle": "active",
+      "version": "v0.9",
+      "stage": "S11",
+      "module": "M-25b",
+      "status": "未开始",
+      "title": "建立 Fuzz 与属性测试 Gate",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1129",
+      "lifecycle": "active",
+      "version": "v0.9",
+      "stage": "S11",
+      "module": "M-25b",
+      "status": "未开始",
+      "title": "建立 TUI v1.0 端到端发布 Gate",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1130",
+      "lifecycle": "active",
+      "version": "v1.3",
+      "stage": "S11",
+      "module": "M-28",
+      "status": "未开始",
+      "title": "建立 Trinity 跨客户端端到端 Gate",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1131",
+      "lifecycle": "active",
+      "version": "v0.9",
+      "stage": "S11",
+      "module": "M-25a",
+      "status": "未开始",
+      "title": "建立 Core 与 TUI 负载及背压夹具",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1132",
+      "lifecycle": "active",
+      "version": "v1.2",
+      "stage": "S11",
+      "module": "M-27",
+      "status": "未开始",
+      "title": "建立 WebSocket 与 Web 负载夹具",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1201",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S5",
+      "module": "M-07",
+      "status": "未开始",
+      "title": "实现 v0.1 简化权限策略并预留 v0.3 迁移接口",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1202",
+      "lifecycle": "active",
+      "version": "v0.2",
+      "stage": "S2",
+      "module": "M-12",
+      "status": "未开始",
+      "title": "实现 Turn 边界内容快照与恢复校验",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1203",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S10",
+      "module": "M-09",
+      "status": "未开始",
+      "title": "实现 TUI Markdown 与代码高亮渲染",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1204",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S10",
+      "module": "M-09",
+      "status": "未开始",
+      "title": "实现 TUI 流式输出、打断与状态反馈",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1205",
+      "lifecycle": "active",
+      "version": "v0.1",
+      "stage": "S10",
+      "module": "M-09",
+      "status": "未开始",
+      "title": "实现 CLI 启动、首次运行与会话恢复入口",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1206",
+      "lifecycle": "active",
+      "version": "v0.2",
+      "stage": "S6",
+      "module": "M-08",
+      "status": "未开始",
+      "title": "补齐前缀缓存固定与失效测试",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1207",
+      "lifecycle": "active",
+      "version": "v0.9",
+      "stage": "S11",
+      "module": "M-25a",
+      "status": "未开始",
+      "title": "建立 Changelog 完整性 CI",
+      "val_ids": []
+    },
+    {
+      "ep_id": "EP-1208",
+      "lifecycle": "active",
+      "version": "v0.9",
+      "stage": "S11",
+      "module": "M-25a",
+      "status": "未开始",
+      "title": "建立 design-before-code 门禁",
+      "val_ids": []
+    }
+  ],
+  "validation_items": [
+    {
+      "val_id": "VAL-01",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-02",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-02B",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-03",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-04",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-05",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-06",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-07",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-08",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-09",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-10",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-11",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-12",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-13",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-14",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-15",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-16",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-17",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-18",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-19",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-20",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-21",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-22",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-23",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-24",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-25",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-26",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-27",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-28",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-29",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-30",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-31",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-32",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-33",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-34",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-35",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-36",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-37",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-38",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-39",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-40",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-41",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-42",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-43",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-44",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-45",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-46",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-47",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-48",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-49",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-50",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-51",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-52",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-53",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-54",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-55",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-56",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-57",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-58",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-59",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-60",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-61",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-62",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-63",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-64",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-65",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-66",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-67",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-68",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-69",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-70",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-71",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-72",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-73",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-74",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-75",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-76",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-77",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-78",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-79",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-80",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-81",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-82",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-83",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-84",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-85",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-86",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-87",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-88",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-89",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-90",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-91",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-92",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-93",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-94",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-95",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-96",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-97",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-98",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-99",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-100",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-101",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-102",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-103",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-104",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-105",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-106",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-107",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-108",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-109",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-110",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-111",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-112",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-113",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-114",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-115",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-116",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-117",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-118",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-119",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-120",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-121",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-122",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-123",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-124",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-125",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-126",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-127",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-128",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-129",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-130",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-131",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-132",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-133",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-134",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-135",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-136",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-137",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-138",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-139",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-140",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-141",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-142",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-143",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-144",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-145",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-146",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-147",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-148",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-149",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-150",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-151",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-152",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-153",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-154",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-155",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-156",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-157",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-158",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-159",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-160",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-161",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-162",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-163",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-164",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-165",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-166",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-167",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-168",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-169",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-170",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-171",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-172",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-173",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-174",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-175",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-176",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-177",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-178",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-179",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-180",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-181",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-182",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-183",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-184",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-185",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-186",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-187",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-188",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-189",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-190",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-191",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-192",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-193",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-194",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-195",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-196",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-197",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-198",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-199",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-200",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-201",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-202",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-203",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-204",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-205",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-206",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-207",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-208",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-209",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-210",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-211",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-212",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-213",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-214",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-215",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-216",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-217",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-218",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-219",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-220",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-221",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-222",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-223",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-224",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-225",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-226",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-227",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-228",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-229",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-230",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-231",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-232",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-233",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-234",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-235",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-236",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-237",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-238",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-239",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-240",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-241",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-242",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-243",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-244",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-245",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-246",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-247",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-248",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-249",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-250",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-251",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-252",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-253",
+      "lifecycle": "active"
+    },
+    {
+      "val_id": "VAL-254",
+      "lifecycle": "active"
+    }
+  ]
+}
