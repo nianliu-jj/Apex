@@ -118,7 +118,7 @@ flowchart TD
 
 | ID | 原子任务 | 依赖 | 对应需求/验收 | 产出 | 验证 |
 |---|---|---|---|---|---|
-| EP-0101 | 创建 workspace 根清单与成员列表 | EP-0006 | RQ-002 | `Cargo.toml` workspace | `VAL-08`：成员/路径检查 |
+| EP-0101 | 创建 workspace 根清单与成员列表 | EP-0006 | RQ-002 | `../../../Cargo.toml` workspace | `VAL-08`：成员/路径检查 |
 | EP-0102 | 锁定 Rust toolchain 与 target 列表 | EP-0101 | RQ-004/005 | toolchain/target matrix | `VAL-09`：六 target dry-run |
 | EP-0103 | 配置 rustfmt/clippy/deny/audit 基线 | EP-0101 | RQ-045/046 | lint/依赖配置 | `VAL-10`：故意引入 warning 应失败 |
 | EP-0104 | 实现 UUIDv7/ContentHash/TraceId newtype | EP-0101 | 04 领域契约 | Domain IDs | `VAL-11`：格式、排序、不可混用测试 |

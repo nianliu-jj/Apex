@@ -11,14 +11,14 @@
 
 ## 0. 规范权威顺序
 
-冲突时按以下顺序处理（与 `README.md` 一致）：
+冲突时按以下顺序处理（与 `../../../README.md` 一致）：
 
 1. 本文件与 `rules/git-commit.md` —— 工程执行规则。
 2. `docs/01-requirements.md` —— 产品范围与验收事实。
 3. `docs/02-system-architecture.md`、`docs/03-workspace-and-crates.md` —— 依赖方向与 crate 职责。
 4. `docs/05-trait-contracts.md`、`docs/06-protocol-and-clients.md` —— Trait 与 Wire 契约。
 
-**禁止**：在下层文档中静默覆盖上层契约。若本规范与 `Cargo.toml` lint 配置或 CI 冲突，以 CI 实际执行为准并立即修正文档。
+**禁止**：在下层文档中静默覆盖上层契约。若本规范与 `../../../Cargo.toml` lint 配置或 CI 冲突，以 CI 实际执行为准并立即修正文档。
 
 ---
 
@@ -27,8 +27,8 @@
 ### 1.1 工具链与版本 【必须】
 
 - Edition：**2024**（`workspace.package.edition = "2024"`）。
-- 工具链：**1.96.1**（`rust-toolchain.toml` 锁定），组件 `clippy` + `rustfmt`。
-- `Cargo.lock` 必须提交（应用型 workspace）。
+- 工具链：**1.96.1**（`../../../rust-toolchain.toml` 锁定），组件 `clippy` + `rustfmt`。
+- `../../../Cargo.lock` 必须提交（应用型 workspace）。
 - 所有依赖集中于根 `Cargo.toml [workspace.dependencies]`，成员 crate 只写 `dep.workspace = true`。
 
 ### 1.2 命名 【必须】
@@ -63,7 +63,7 @@
 ### 1.4 注释与文档 【必须】
 
 - 注释解释"为什么"，代码说明"做了什么"。
-- 公开 API 必须有 `///` 文档注释；模块级用 `//!`。`missing_docs` 当前为 `warn`，待补全后收紧为 `deny`（见根 `Cargo.toml` 注释）。
+- 公开 API 必须有 `///` 文档注释；模块级用 `//!`。`missing_docs` 当前为 `warn`，待补全后收紧为 `deny`（见根 `../../../Cargo.toml` 注释）。
 - 文档注释中的代码示例必须可编译（`cargo test --doc`）。
 - `TODO(名字): 内容` / `FIXME(名字): 内容` / `HACK(名字): 内容` 必须署名并关联 issue/编号。
 - `unsafe` 块必须配 `// SAFETY:` 注释说明不变量。

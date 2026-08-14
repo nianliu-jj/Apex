@@ -1743,7 +1743,7 @@ Plugin 可以提供 MCP server template，但不得在安装时自动启动。�
 | Capability escalation | Plugin 请求裸文件/网络 | manifest + grant 交集、Tool Gateway |
 | Supply chain | 同版本替换、恶意依赖 | digest、签名、lock、staging |
 | Secret exfiltration | Hook/MCP 获取 token | Credential ref、data egress policy |
-| Path traversal | Skill resource `../../..` | containment、symlink 复核 |
+| Path traversal | Skill resource `../../../..` | containment、symlink 复核 |
 | Process escape | MCP 子进程残留 | Job Object/process group、最小环境 |
 | Schema bait-and-switch | 审批后 MCP schema 改变 | schema revision binding |
 | Result spoofing | 扩展伪造 Gate pass | 结构化 receipt、Core commit |
@@ -2367,7 +2367,7 @@ MCP server 崩溃后：
 场景包括：
 
 1. 项目 Skill 覆盖兼容 Skill 的冲突诊断；
-2. Skill body 引用 `../..` 被拒绝；
+2. Skill body 引用 `../../..` 被拒绝；
 3. MCP `.mcp.json` 被发现但未自动启动；
 4. MCP tool schema 改变使旧审批失效；
 5. MCP timeout 后进入 `reconcile_required`；

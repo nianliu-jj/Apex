@@ -117,7 +117,7 @@ cargo clippy --workspace --all-targets -- -D warnings -A missing-docs
 cargo test --workspace              # 测试
 ```
 
-任何一项不通过不得提交。不要提交 `/target/`、`/logs/`、`*.log` 等产物（已在 `.gitignore`）。
+任何一项不通过不得提交。不要提交 `/target/`、`/logs/`、`*.log` 等产物（已在 `../../../.gitignore`）。
 
 ## 9. 反模式（禁止） 【必须】
 
@@ -128,6 +128,6 @@ cargo test --workspace              # 测试
 | `git add .` 一次性提交所有改动 | 按逻辑分组，不同关注点分多次 commit |
 | `git pull` 产生无意义 merge commit | `git pull --rebase` |
 | commit 中含 TODO 注释无跟踪 | TODO 必须署名 + 关联 issue/RQ 编号 |
-| 提交密钥/Token/密码 | `.gitignore` + 凭据存储；泄漏后立即轮换 |
-| 提交编译产物（target/dist） | `.gitignore` 排除 |
+| 提交密钥/Token/密码 | `../../../.gitignore` + 凭据存储；泄漏后立即轮换 |
+| 提交编译产物（target/dist） | `../../../.gitignore` 排除 |
 | force push 到共享分支 | 仅自己 feature 分支 + `--force-with-lease` |

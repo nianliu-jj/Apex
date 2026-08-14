@@ -2023,7 +2023,7 @@ L3 archival pack: 冷存储、压缩、长期保留
 
 | 威胁 | 例子 | 控制 |
 |---|---|---|
-| 路径逃逸 | `../..`、symlink、junction | canonicalize + final identity check |
+| 路径逃逸 | `../../..`、symlink、junction | canonicalize + final identity check |
 | Claim 绕过 | shell 间接写声明外路径 | 进程隔离 + post scope audit |
 | Git 逃逸 | `git -C`、`--git-dir`、`GIT_DIR` | 参数/环境拦截 + sandbox |
 | TOCTOU | 校验后替换链接 | parent handle/file-id/fence |

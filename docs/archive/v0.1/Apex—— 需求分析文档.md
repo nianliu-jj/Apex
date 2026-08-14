@@ -441,7 +441,7 @@ version: 1.2.0                   # 版本号
 
 | 维度 | 要求 |
 |---|---|
-| 代码规范 | `../../Cargo.toml` 显式 deny `unwrap/expect/panic/exit`（参考 claude-code-rust） |
+| 代码规范 | `../../../Cargo.toml` 显式 deny `unwrap/expect/panic/exit`（参考 claude-code-rust） |
 | 测试覆盖率 | 核心模块 ≥ 80% |
 | 文档 | rustdoc 全覆盖公共 API，架构决策记录（ADR） |
 | CI/CD | GitHub Actions：lint + test + build（TUI/Desktop/Web）+ release |

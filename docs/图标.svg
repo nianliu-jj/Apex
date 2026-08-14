@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+    <!--
+      Apex 图标：分支-合并（branch-merge）
+      语义：DAG 工作流编排、多 Agent 分支协作、Checkpoint 分叉恢复。
+      主节点（磷光绿，实心）= 会话源头；两条对称圆角弧线各连接一个空心圆环
+      （cyan / yellow）= 分支执行的子 Agent / DAG 节点 / 可恢复检查点。
+      配色取自 Phosphor Terminal 调色板，深色底上高亮度磷光。
+    -->
+    <defs>
+        <radialGradient id="bg" cx="50%" cy="42%" r="72%">
+            <stop offset="0%" stop-color="#0d141d"/>
+            <stop offset="100%" stop-color="#05080c"/>
+        </radialGradient>
+        <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+            <feGaussianBlur stdDeviation="4" result="b"/>
+            <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+    </defs>
+
+    <!-- 应用图标底板：圆角方块（可去掉作纯 glyph） -->
+    <rect x="8" y="8" width="240" height="240" rx="52" fill="url(#bg)"/>
+    <rect x="8" y="8" width="240" height="240" rx="52" fill="none"
+          stroke="#1c2634" stroke-width="2"/>
+
+    <!-- 主干：主节点垂直向下，再对称分叉 -->
+    <g filter="url(#glow)" fill="none" stroke-linecap="round">
+        <path d="M 128 76 L 128 108" stroke="#8fd67a" stroke-width="11"/>
+        <!-- 左分支（cyan） -->
+        <path d="M 128 108 Q 128 148 84 164" stroke="#4fd0e0" stroke-width="11"/>
+        <!-- 右分支（yellow） -->
+        <path d="M 128 108 Q 128 148 172 164" stroke="#f0c26b" stroke-width="11"/>
+    </g>
+
+    <!-- 主节点：实心磷光绿（置顶） -->
+    <circle cx="128" cy="76" r="30" fill="#8fd67a" filter="url(#glow)"/>
+
+    <!-- 下游节点：空心圆环（左右对称） -->
+    <circle cx="84"  cy="182" r="24" fill="#05080c" stroke="#4fd0e0" stroke-width="11" filter="url(#glow)"/>
+    <circle cx="172" cy="182" r="24" fill="#05080c" stroke="#f0c26b" stroke-width="11" filter="url(#glow)"/>
+</svg>

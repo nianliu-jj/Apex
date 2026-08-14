@@ -406,7 +406,7 @@ direct_changed_paths
 - 权限/规则/沙箱配置；
 - public API、schema、migration；
 - generated code source；
-- `../../.gitignore`、secret policy、path mapping；
+- `../../../.gitignore`、secret policy、path mapping；
 - 规则声明的 global dependency。
 
 ### 5.4 Input Snapshot 与 ChangeSet

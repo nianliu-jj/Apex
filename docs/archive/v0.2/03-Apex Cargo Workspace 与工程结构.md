@@ -218,7 +218,7 @@ codegen-units = 1
 panic = "abort"
 ```
 
-实际 `Cargo.toml` 在实现阶段生成；上例表达策略而非当前可执行配置。所有依赖集中于 `[workspace.dependencies]`，新增依赖必须通过 `cargo deny`、`cargo audit`、许可证和维护性评审。
+实际 `../../../Cargo.toml` 在实现阶段生成；上例表达策略而非当前可执行配置。所有依赖集中于 `[workspace.dependencies]`，新增依赖必须通过 `cargo deny`、`cargo audit`、许可证和维护性评审。
 
 ## 7. 构建与生成顺序
 

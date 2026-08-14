@@ -79,7 +79,7 @@ project/
 .apex/logs/
 ```
 
-`specs/**`、其中的 `verification.md` 和 `.apex/memory/**` 默认可提交。Apex 只建议/生成 ignore 片段，不在未经允许时改写用户 `.gitignore`。
+`specs/**`、其中的 `verification.md` 和 `.apex/memory/**` 默认可提交。Apex 只建议/生成 ignore 片段，不在未经允许时改写用户 `../../../.gitignore`。
 
 ### 3.2 多根 Workspace
 
