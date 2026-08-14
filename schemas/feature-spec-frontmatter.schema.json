@@ -1,0 +1,301 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://apex.local/schemas/feature-spec-frontmatter.schema.json",
+  "title": "Apex Feature Spec frontmatter",
+  "description": "EP-0001：四阶段 Feature Spec 文档 frontmatter。",
+  "oneOf": [
+    {
+      "title": "Apex requirements frontmatter v1",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema",
+        "feature",
+        "generation",
+        "status",
+        "created_at",
+        "updated_at",
+        "trace_id",
+        "approval_mode",
+        "requirement_ids"
+      ],
+      "properties": {
+        "schema": {
+          "const": "apex.requirements.v1"
+        },
+        "feature": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "generation": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "draft",
+            "awaiting_approval",
+            "approved",
+            "invalidated",
+            "skipped",
+            "in_progress",
+            "verified"
+          ]
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "trace_id": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{16,64}$"
+        },
+        "approval_mode": {
+          "type": "string",
+          "enum": [
+            "stage",
+            "bundle"
+          ]
+        },
+        "requirement_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^RQ-[0-9]{3}$"
+          }
+        }
+      }
+    },
+    {
+      "title": "Apex design frontmatter v1",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema",
+        "feature",
+        "generation",
+        "status",
+        "created_at",
+        "updated_at",
+        "trace_id",
+        "requirements_hash",
+        "rule_profile",
+        "rule_profile_hash"
+      ],
+      "properties": {
+        "schema": {
+          "const": "apex.design.v1"
+        },
+        "feature": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "generation": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "draft",
+            "awaiting_approval",
+            "approved",
+            "invalidated",
+            "skipped",
+            "in_progress",
+            "verified"
+          ]
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "trace_id": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{16,64}$"
+        },
+        "requirements_hash": {
+          "type": "string",
+          "pattern": "^blake3:[0-9a-f]{64}$"
+        },
+        "rule_profile": {
+          "type": "string",
+          "minLength": 1
+        },
+        "rule_profile_hash": {
+          "type": "string",
+          "pattern": "^blake3:[0-9a-f]{64}$"
+        }
+      }
+    },
+    {
+      "title": "Apex tasks frontmatter v1",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema",
+        "feature",
+        "generation",
+        "status",
+        "created_at",
+        "updated_at",
+        "trace_id",
+        "requirements_hash",
+        "design_hash",
+        "write_paths",
+        "verification_commands"
+      ],
+      "properties": {
+        "schema": {
+          "const": "apex.tasks.v1"
+        },
+        "feature": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "generation": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "draft",
+            "awaiting_approval",
+            "approved",
+            "invalidated",
+            "skipped",
+            "in_progress",
+            "verified"
+          ]
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "trace_id": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{16,64}$"
+        },
+        "requirements_hash": {
+          "type": "string",
+          "pattern": "^blake3:[0-9a-f]{64}$"
+        },
+        "design_hash": {
+          "type": "string",
+          "pattern": "^blake3:[0-9a-f]{64}$"
+        },
+        "write_paths": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "verification_commands": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    {
+      "title": "Apex verification frontmatter v1",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema",
+        "feature",
+        "generation",
+        "status",
+        "created_at",
+        "updated_at",
+        "trace_id",
+        "requirements_hash",
+        "design_hash",
+        "tasks_hash",
+        "verified_at",
+        "acceptance_mode"
+      ],
+      "properties": {
+        "schema": {
+          "const": "apex.verification.v1"
+        },
+        "feature": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "generation": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "draft",
+            "failed",
+            "awaiting_confirmation",
+            "verified",
+            "skipped"
+          ]
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "trace_id": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{16,64}$"
+        },
+        "requirements_hash": {
+          "type": "string",
+          "pattern": "^blake3:[0-9a-f]{64}$"
+        },
+        "design_hash": {
+          "type": "string",
+          "pattern": "^blake3:[0-9a-f]{64}$"
+        },
+        "tasks_hash": {
+          "type": "string",
+          "pattern": "^blake3:[0-9a-f]{64}$"
+        },
+        "verified_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "acceptance_mode": {
+          "type": "string",
+          "enum": [
+            "user",
+            "automatic"
+          ]
+        }
+      }
+    }
+  ]
+}

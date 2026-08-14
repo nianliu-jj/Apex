@@ -1,0 +1,12 @@
+{
+  "feature": "example-feature",
+  "generation": 1,
+  "status": "draft",
+  "created_at": "2026-08-14T23:30:00+08:00",
+  "updated_at": "2026-08-14T23:30:00+08:00",
+  "trace_id": "0123456789abcdef0123456789abcdef",
+  "schema": "apex.design.v2",
+  "requirements_hash": "blake3:0000000000000000000000000000000000000000000000000000000000000000",
+  "rule_profile": "apex-default-v1",
+  "rule_profile_hash": "blake3:0000000000000000000000000000000000000000000000000000000000000000"
+}

@@ -1,0 +1,13 @@
+{
+  "feature": "example-feature",
+  "generation": 1,
+  "status": "draft",
+  "created_at": "2026-08-14T23:30:00+08:00",
+  "updated_at": "2026-08-14T23:30:00+08:00",
+  "trace_id": "0123456789abcdef0123456789abcdef",
+  "schema": "apex.requirements.v1",
+  "approval_mode": "stage",
+  "requirement_ids": [
+    "RQ-036"
+  ]
+}
