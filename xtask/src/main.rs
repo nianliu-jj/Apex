@@ -19,7 +19,10 @@ fn run(mut arguments: impl Iterator<Item = String>) -> Result<(), String> {
         (Some("verify"), Some("workspace")) if arguments.next().is_none() => {
             verify_workspace(workspace_root())
         }
-        _ => Err("usage: cargo xtask verify workspace".to_owned()),
+        (Some("verify"), Some("identifiers")) if arguments.next().is_none() => {
+            verify_identifiers(workspace_root())
+        }
+        _ => Err("usage: cargo xtask verify <workspace|identifiers>".to_owned()),
     }
 }
 
@@ -27,6 +30,25 @@ fn workspace_root() -> &'static Path {
     Path::new(env!("CARGO_MANIFEST_DIR"))
         .parent()
         .unwrap_or_else(|| Path::new(env!("CARGO_MANIFEST_DIR")))
+}
+
+fn verify_identifiers(root: &Path) -> Result<(), String> {
+    let script = root.join("scripts/validate_identifier_registry.py");
+    let command = if cfg!(windows) { "python" } else { "python3" };
+    let status = Command::new(command)
+        .arg(script)
+        .current_dir(root)
+        .status()
+        .map_err(|error| format!("failed to execute identifier validator: {error}"))?;
+
+    if status.success() {
+        println!("PASS: identifier registry and source references are valid");
+        Ok(())
+    } else {
+        Err(format!(
+            "identifier registry validation failed with status {status}"
+        ))
+    }
 }
 
 fn verify_workspace(root: &Path) -> Result<(), String> {
@@ -60,5 +82,10 @@ mod tests {
     fn rejects_missing_workspace_member() {
         let fixture = workspace_root().join("xtask/tests/fixtures/missing-member");
         assert!(verify_workspace(&fixture).is_err());
+    }
+
+    #[test]
+    fn validates_identifier_registry() {
+        assert!(verify_identifiers(workspace_root()).is_ok());
     }
 }

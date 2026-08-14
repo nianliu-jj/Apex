@@ -1,0 +1,3450 @@
+{
+  "schema": "apex.identifier-registry.v1",
+  "policy": {
+    "append_only": true,
+    "reuse_forbidden": true,
+    "canonical_order": [
+      "RQ",
+      "AC",
+      "EP",
+      "VAL"
+    ]
+  },
+  "namespaces": [
+    {
+      "namespace": "RQ",
+      "description": "产品需求编号；废弃编号保留且不得复用。",
+      "sequences": [
+        {
+          "prefix": "RQ-",
+          "minimum_digits": 3,
+          "start": 1,
+          "end": 124
+        }
+      ],
+      "extensions": []
+    },
+    {
+      "namespace": "AC",
+      "description": "产品验收标准编号。",
+      "sequences": [
+        {
+          "prefix": "AC-",
+          "minimum_digits": 3,
+          "start": 1,
+          "end": 26
+        }
+      ],
+      "extensions": []
+    },
+    {
+      "namespace": "EP",
+      "description": "原子执行单元编号；按领域号段追加，不填历史空洞。",
+      "sequences": [
+        {
+          "prefix": "EP-00",
+          "minimum_digits": 2,
+          "start": 1,
+          "end": 11
+        },
+        {
+          "prefix": "EP-01",
+          "minimum_digits": 2,
+          "start": 1,
+          "end": 12
+        },
+        {
+          "prefix": "EP-02",
+          "minimum_digits": 2,
+          "start": 1,
+          "end": 23
+        },
+        {
+          "prefix": "EP-03",
+          "minimum_digits": 2,
+          "start": 1,
+          "end": 15
+        },
+        {
+          "prefix": "EP-04",
+          "minimum_digits": 2,
+          "start": 1,
+          "end": 15
+        },
+        {
+          "prefix": "EP-05",
+          "minimum_digits": 2,
+          "start": 1,
+          "end": 26
+        },
+        {
+          "prefix": "EP-06",
+          "minimum_digits": 2,
+          "start": 1,
+          "end": 18
+        },
+        {
+          "prefix": "EP-07",
+          "minimum_digits": 2,
+          "start": 1,
+          "end": 23
+        },
+        {
+          "prefix": "EP-08",
+          "minimum_digits": 2,
+          "start": 1,
+          "end": 19
+        },
+        {
+          "prefix": "EP-09",
+          "minimum_digits": 2,
+          "start": 1,
+          "end": 17
+        },
+        {
+          "prefix": "EP-10",
+          "minimum_digits": 2,
+          "start": 1,
+          "end": 37
+        },
+        {
+          "prefix": "EP-11",
+          "minimum_digits": 2,
+          "start": 1,
+          "end": 32
+        },
+        {
+          "prefix": "EP-12",
+          "minimum_digits": 2,
+          "start": 1,
+          "end": 8
+        }
+      ],
+      "extensions": []
+    },
+    {
+      "namespace": "VAL",
+      "description": "独立验证项编号；VAL-02B 是保留的历史扩展编号。",
+      "sequences": [
+        {
+          "prefix": "VAL-",
+          "minimum_digits": 2,
+          "start": 1,
+          "end": 254
+        }
+      ],
+      "extensions": [
+        "VAL-02B"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "RQ-001",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-002",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-003",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-004",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-005",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-006",
+      "lifecycle": "deprecated",
+      "declared_in": "docs/Apex 设计文档.md",
+      "note": "原全局单 apexd 需求已废弃；编号保留不重用。"
+    },
+    {
+      "id": "RQ-007",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-008",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-009",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-010",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-011",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-012",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-013",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-014",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-015",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-016",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-017",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-018",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-019",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-020",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-021",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-022",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-023",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-024",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-025",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-026",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-027",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-028",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-029",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-030",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-031",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-032",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-033",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-034",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-035",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-036",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-037",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-038",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-039",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-040",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-041",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-042",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-043",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-044",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-045",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-046",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-047",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-048",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-049",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-050",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-051",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-052",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-053",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-054",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-055",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-056",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-057",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-058",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-059",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-060",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-061",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-062",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-063",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-064",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-065",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-066",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-067",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-068",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-069",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-070",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-071",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-072",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-073",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-074",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-075",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-076",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-077",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-078",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-079",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-080",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-081",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-082",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-083",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-084",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-085",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-086",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-087",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-088",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-089",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-090",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-091",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-092",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-093",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-094",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-095",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-096",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-097",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-098",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-099",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-100",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-101",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-102",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-103",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-104",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-105",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-106",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-107",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-108",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-109",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-110",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-111",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-112",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-113",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-114",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-115",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-116",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-117",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-118",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-119",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-120",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-121",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-122",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-123",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "RQ-124",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "AC-001",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "AC-002",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "AC-003",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "AC-004",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "AC-005",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "AC-006",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "AC-007",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "AC-008",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "AC-009",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "AC-010",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "AC-011",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "AC-012",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "AC-013",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "AC-014",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "AC-015",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "AC-016",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "AC-017",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "AC-018",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "AC-019",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "AC-020",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "AC-021",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "AC-022",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "AC-023",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "AC-024",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "AC-025",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "AC-026",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 设计文档.md"
+    },
+    {
+      "id": "EP-0001",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0002",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0003",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0004",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0005",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0006",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0007",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0008",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0009",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0010",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0011",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0101",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0102",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0103",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0104",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0105",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0106",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0107",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0108",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0109",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0110",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0111",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0112",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0201",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0202",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0203",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0204",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0205",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0206",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0207",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0208",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0209",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0210",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0211",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0212",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0213",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0214",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0215",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0216",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0217",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0218",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0219",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0220",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0221",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0222",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0223",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0301",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0302",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0303",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0304",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0305",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0306",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0307",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0308",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0309",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0310",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0311",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0312",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0313",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0314",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0315",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0401",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0402",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0403",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0404",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0405",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0406",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0407",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0408",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0409",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0410",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0411",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0412",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0413",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0414",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0415",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0501",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0502",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0503",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0504",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0505",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0506",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0507",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0508",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0509",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0510",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0511",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0512",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0513",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0514",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0515",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0516",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0517",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0518",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0519",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0520",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0521",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0522",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0523",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0524",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0525",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0526",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0601",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0602",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0603",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0604",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0605",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0606",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0607",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0608",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0609",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0610",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0611",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0612",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0613",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0614",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0615",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0616",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0617",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0618",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0701",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0702",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0703",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0704",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0705",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0706",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0707",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0708",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0709",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0710",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0711",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0712",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0713",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0714",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0715",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0716",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0717",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0718",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0719",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0720",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0721",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0722",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0723",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0801",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0802",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0803",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0804",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0805",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0806",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0807",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0808",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0809",
+      "lifecycle": "superseded",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0810",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0811",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0812",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0813",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0814",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0815",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0816",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0817",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0818",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0819",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0901",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0902",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0903",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0904",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0905",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0906",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0907",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0908",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0909",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0910",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0911",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0912",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0913",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0914",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0915",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0916",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-0917",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1001",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1002",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1003",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1004",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1005",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1006",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1007",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1008",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1009",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1010",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1011",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1012",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1013",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1014",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1015",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1016",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1017",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1018",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1019",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1020",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1021",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1022",
+      "lifecycle": "superseded",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1023",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1024",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1025",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1026",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1027",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1028",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1029",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1030",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1031",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1032",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1033",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1034",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1035",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1036",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1037",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1101",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1102",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1103",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1104",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1105",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1106",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1107",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1108",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1109",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1110",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1111",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1112",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1113",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1114",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1115",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1116",
+      "lifecycle": "superseded",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1117",
+      "lifecycle": "superseded",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1118",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1119",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1120",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1121",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1122",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1123",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1124",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1125",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1126",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1127",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1128",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1129",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1130",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1131",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1132",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1201",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1202",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1203",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1204",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1205",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1206",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1207",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "EP-1208",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-01",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-02",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-03",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-04",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-05",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-06",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-07",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-08",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-09",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-10",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-11",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-12",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-13",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-14",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-15",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-16",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-17",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-18",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-19",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-20",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-21",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-22",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-23",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-24",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-25",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-26",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-27",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-28",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-29",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-30",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-31",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-32",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-33",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-34",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-35",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-36",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-37",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-38",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-39",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-40",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-41",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-42",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-43",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-44",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-45",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-46",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-47",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-48",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-49",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-50",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-51",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-52",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-53",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-54",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-55",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-56",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-57",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-58",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-59",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-60",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-61",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-62",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-63",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-64",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-65",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-66",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-67",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-68",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-69",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-70",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-71",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-72",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-73",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-74",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-75",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-76",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-77",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-78",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-79",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-80",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-81",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-82",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-83",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-84",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-85",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-86",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-87",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-88",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-89",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-90",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-91",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-92",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-93",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-94",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-95",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-96",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-97",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-98",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-99",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-100",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-101",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-102",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-103",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-104",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-105",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-106",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-107",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-108",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-109",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-110",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-111",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-112",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-113",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-114",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-115",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-116",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-117",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-118",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-119",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-120",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-121",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-122",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-123",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-124",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-125",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-126",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-127",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-128",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-129",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-130",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-131",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-132",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-133",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-134",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-135",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-136",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-137",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-138",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-139",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-140",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-141",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-142",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-143",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-144",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-145",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-146",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-147",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-148",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-149",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-150",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-151",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-152",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-153",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-154",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-155",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-156",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-157",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-158",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-159",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-160",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-161",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-162",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-163",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-164",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-165",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-166",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-167",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-168",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-169",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-170",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-171",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-172",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-173",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-174",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-175",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-176",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-177",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-178",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-179",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-180",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-181",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-182",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-183",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-184",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-185",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-186",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-187",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-188",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-189",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-190",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-191",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-192",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-193",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-194",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-195",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-196",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-197",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-198",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-199",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-200",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-201",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-202",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-203",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-204",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-205",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-206",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-207",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-208",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-209",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-210",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-211",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-212",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-213",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-214",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-215",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-216",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-217",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-218",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-219",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-220",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-221",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-222",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-223",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-224",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-225",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-226",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-227",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-228",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-229",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-230",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-231",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-232",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-233",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-234",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-235",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-236",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-237",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-238",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-239",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-240",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-241",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-242",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-243",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-244",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-245",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-246",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-247",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-248",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-249",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-250",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-251",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-252",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-253",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-254",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md"
+    },
+    {
+      "id": "VAL-02B",
+      "lifecycle": "active",
+      "declared_in": "docs/Apex 功能开发原子化执行计划.md",
+      "note": "历史追加验证编号；不改变 VAL 主序列。"
+    }
+  ]
+}

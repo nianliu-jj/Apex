@@ -15,6 +15,13 @@ jobs:
           components: rustfmt
       - run: cargo fmt --all -- --check
 
+  identifiers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m unittest scripts/test_identifier_registry.py
+      - run: python3 scripts/validate_identifier_registry.py
+
   check:
     runs-on: ubuntu-latest
     steps:

@@ -44,6 +44,7 @@ Apex/
 
 ```bash
 cargo xtask verify workspace
+cargo xtask verify identifiers
 python scripts/validate_spec_templates.py
 cargo fmt --all -- --check
 cargo check --workspace
