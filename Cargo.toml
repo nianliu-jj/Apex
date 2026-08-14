@@ -1,8 +1,5 @@
-﻿[workspace]
-members = [
-    "apps/apex-log-demo",
-    "crates/apex-observability",
-]
+[workspace]
+members = ["xtask"]
 resolver = "3"
 
 [workspace.package]
@@ -10,9 +7,3 @@ version = "0.1.0"
 edition = "2024"
 rust-version = "1.85"
 license = "MIT OR Apache-2.0"
-
-[workspace.dependencies]
-chrono = { version = "0.4.44", default-features = false, features = ["clock"] }
-tokio = { version = "1.52.1", features = ["macros", "rt-multi-thread", "sync", "time"] }
-tracing = "0.1.44"
-tracing-subscriber = { version = "0.3.23", features = ["registry"] }

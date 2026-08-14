@@ -1,0 +1,64 @@
+//! Apex repository automation entry point.
+
+use std::env;
+use std::path::Path;
+use std::process::{Command, ExitCode};
+
+fn main() -> ExitCode {
+    match run(env::args().skip(1)) {
+        Ok(()) => ExitCode::SUCCESS,
+        Err(error) => {
+            eprintln!("error: {error}");
+            ExitCode::FAILURE
+        }
+    }
+}
+
+fn run(mut arguments: impl Iterator<Item = String>) -> Result<(), String> {
+    match (arguments.next().as_deref(), arguments.next().as_deref()) {
+        (Some("verify"), Some("workspace")) if arguments.next().is_none() => {
+            verify_workspace(workspace_root())
+        }
+        _ => Err("usage: cargo xtask verify workspace".to_owned()),
+    }
+}
+
+fn workspace_root() -> &'static Path {
+    Path::new(env!("CARGO_MANIFEST_DIR"))
+        .parent()
+        .unwrap_or_else(|| Path::new(env!("CARGO_MANIFEST_DIR")))
+}
+
+fn verify_workspace(root: &Path) -> Result<(), String> {
+    let status = Command::new(env!("CARGO"))
+        .args(["metadata", "--no-deps", "--format-version", "1"])
+        .current_dir(root)
+        .status()
+        .map_err(|error| format!("failed to execute cargo metadata: {error}"))?;
+
+    if status.success() {
+        println!("PASS: Cargo workspace members and paths are valid");
+        Ok(())
+    } else {
+        Err(format!(
+            "Cargo workspace validation failed with status {status}"
+        ))
+    }
+}
+
+#[cfg(test)]
+#[allow(clippy::panic)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn accepts_repository_workspace() {
+        assert!(verify_workspace(workspace_root()).is_ok());
+    }
+
+    #[test]
+    fn rejects_missing_workspace_member() {
+        let fixture = workspace_root().join("xtask/tests/fixtures/missing-member");
+        assert!(verify_workspace(&fixture).is_err());
+    }
+}
