@@ -473,20 +473,34 @@
     {
       "rq_id": "RQ-045",
       "ac_ids": [],
-      "ep_ids": [],
-      "val_ids": [],
-      "evidence_paths": [],
-      "status": "unmapped",
+      "ep_ids": [
+        "EP-0103"
+      ],
+      "val_ids": [
+        "VAL-10"
+      ],
+      "evidence_paths": [
+        "docs/evidence/ep-0103/README.md",
+        "docs/evidence/ep-0103/verification.md"
+      ],
+      "status": "部分完成",
       "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
       "source": "docs/Apex 设计文档.md"
     },
     {
       "rq_id": "RQ-046",
       "ac_ids": [],
-      "ep_ids": [],
-      "val_ids": [],
-      "evidence_paths": [],
-      "status": "unmapped",
+      "ep_ids": [
+        "EP-0103"
+      ],
+      "val_ids": [
+        "VAL-10"
+      ],
+      "evidence_paths": [
+        "docs/evidence/ep-0103/README.md",
+        "docs/evidence/ep-0103/verification.md"
+      ],
+      "status": "部分完成",
       "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
       "source": "docs/Apex 设计文档.md"
     },
@@ -1596,9 +1610,11 @@
       "version": "v0.1",
       "stage": "S1",
       "module": "M-01",
-      "status": "部分完成",
+      "status": "已完成",
       "title": "配置 rustfmt/clippy/deny/audit 基线",
-      "val_ids": []
+      "val_ids": [
+        "VAL-10"
+      ]
     },
     {
       "ep_id": "EP-0104",

@@ -24,7 +24,8 @@ fn run(mut arguments: impl Iterator<Item = String>) -> Result<(), String> {
             verify_identifiers(workspace_root())
         }
         (Some("verify"), Some("targets")) if arguments.next().is_none() => verify_targets(),
-        _ => Err("usage: cargo xtask verify <workspace|identifiers|targets>".to_owned()),
+        (Some("verify"), Some("quality")) if arguments.next().is_none() => verify_quality(),
+        _ => Err("usage: cargo xtask verify <workspace|identifiers|targets|quality>".to_owned()),
     }
 }
 
@@ -110,6 +111,49 @@ fn verify_target(target: &str) -> Result<(), String> {
                 output.status
             ))
         }
+    }
+}
+
+fn verify_quality() -> Result<(), String> {
+    let root = workspace_root();
+    run_quality_command(root, "fmt", &["fmt", "--all", "--", "--check"])?;
+    run_quality_command(root, "check", &["check", "--workspace", "--all-targets"])?;
+    run_quality_command(
+        root,
+        "clippy",
+        &[
+            "clippy",
+            "--workspace",
+            "--all-targets",
+            "--",
+            "-D",
+            "warnings",
+        ],
+    )?;
+    run_quality_command(root, "test", &["test", "--workspace"])?;
+    run_quality_command(root, "deny", &["deny", "--offline", "check"])?;
+    println!("PASS: format, check, clippy, test, and dependency quality gates");
+    Ok(())
+}
+
+fn run_quality_command(root: &Path, label: &str, arguments: &[&str]) -> Result<(), String> {
+    let output = Command::new(env!("CARGO"))
+        .args(arguments)
+        .current_dir(root)
+        .output()
+        .map_err(|error| format!("failed to execute {label} quality gate: {error}"))?;
+    if output.status.success() {
+        Ok(())
+    } else {
+        let details = String::from_utf8_lossy(&output.stderr).trim().to_owned();
+        Err(if details.is_empty() {
+            format!("{label} quality gate failed with status {}", output.status)
+        } else {
+            format!(
+                "{label} quality gate failed with status {}: {details}",
+                output.status
+            )
+        })
     }
 }
 
@@ -200,6 +244,23 @@ mod tests {
             Err(error)
                 if error.contains("apex-unknown-target")
                     && error.contains("Rust target dry-run failed")
+        ));
+    }
+
+    #[test]
+    fn quality_gate_rejects_warning_fixture() {
+        let fixture = workspace_root().join("xtask/tests/fixtures/warning");
+        let result = run_quality_command(
+            &fixture,
+            "warning fixture",
+            &["check", "--manifest-path", "Cargo.toml"],
+        );
+
+        assert!(matches!(
+            result,
+            Err(error)
+                if error.contains("warning fixture quality gate failed")
+                    && error.contains("unused variable")
         ));
     }
 }
