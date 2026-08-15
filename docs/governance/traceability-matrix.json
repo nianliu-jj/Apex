@@ -59,20 +59,34 @@
     {
       "rq_id": "RQ-004",
       "ac_ids": [],
-      "ep_ids": [],
-      "val_ids": [],
-      "evidence_paths": [],
-      "status": "unmapped",
+      "ep_ids": [
+        "EP-0102"
+      ],
+      "val_ids": [
+        "VAL-09"
+      ],
+      "evidence_paths": [
+        "docs/evidence/ep-0102/README.md",
+        "docs/evidence/ep-0102/verification.md"
+      ],
+      "status": "部分完成",
       "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
       "source": "docs/Apex 设计文档.md"
     },
     {
       "rq_id": "RQ-005",
       "ac_ids": [],
-      "ep_ids": [],
-      "val_ids": [],
-      "evidence_paths": [],
-      "status": "unmapped",
+      "ep_ids": [
+        "EP-0102"
+      ],
+      "val_ids": [
+        "VAL-09"
+      ],
+      "evidence_paths": [
+        "docs/evidence/ep-0102/README.md",
+        "docs/evidence/ep-0102/verification.md"
+      ],
+      "status": "部分完成",
       "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
       "source": "docs/Apex 设计文档.md"
     },
@@ -1570,9 +1584,11 @@
       "version": "v0.1",
       "stage": "S1",
       "module": "M-01",
-      "status": "部分完成",
+      "status": "已完成",
       "title": "锁定 Rust toolchain 与 target 列表",
-      "val_ids": []
+      "val_ids": [
+        "VAL-09"
+      ]
     },
     {
       "ep_id": "EP-0103",

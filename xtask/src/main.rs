@@ -1,5 +1,6 @@
 //! Apex repository automation entry point.
 
+use std::collections::HashSet;
 use std::env;
 use std::path::Path;
 use std::process::{Command, ExitCode};
@@ -22,7 +23,8 @@ fn run(mut arguments: impl Iterator<Item = String>) -> Result<(), String> {
         (Some("verify"), Some("identifiers")) if arguments.next().is_none() => {
             verify_identifiers(workspace_root())
         }
-        _ => Err("usage: cargo xtask verify <workspace|identifiers>".to_owned()),
+        (Some("verify"), Some("targets")) if arguments.next().is_none() => verify_targets(),
+        _ => Err("usage: cargo xtask verify <workspace|identifiers|targets>".to_owned()),
     }
 }
 
@@ -48,6 +50,66 @@ fn verify_identifiers(root: &Path) -> Result<(), String> {
         Err(format!(
             "identifier registry validation failed with status {status}"
         ))
+    }
+}
+
+const TARGET_MATRIX: &str = include_str!("../../docs/governance/target-matrix.txt");
+const TARGET_MATRIX_SIZE: usize = 6;
+
+fn verify_targets() -> Result<(), String> {
+    let targets = target_matrix_entries()?;
+    for target in &targets {
+        verify_target(target)?;
+    }
+    println!("PASS: six Rust targets are recognized by the locked toolchain");
+    Ok(())
+}
+
+fn target_matrix_entries() -> Result<Vec<&'static str>, String> {
+    let targets: Vec<_> = TARGET_MATRIX
+        .lines()
+        .map(str::trim)
+        .filter(|line| !line.is_empty() && !line.starts_with('#'))
+        .collect();
+    validate_target_matrix(&targets)?;
+    Ok(targets)
+}
+
+fn validate_target_matrix(targets: &[&str]) -> Result<(), String> {
+    let unique_targets: HashSet<_> = targets.iter().copied().collect();
+    if unique_targets.len() != targets.len() {
+        return Err("target matrix contains duplicate targets".to_owned());
+    }
+    if targets.len() != TARGET_MATRIX_SIZE {
+        return Err(format!(
+            "target matrix must contain exactly {TARGET_MATRIX_SIZE} targets, found {}",
+            targets.len()
+        ));
+    }
+    Ok(())
+}
+
+fn verify_target(target: &str) -> Result<(), String> {
+    let output = Command::new("rustc")
+        .args(["--target", target, "--print", "cfg"])
+        .output()
+        .map_err(|error| format!("failed to execute rustc for target {target}: {error}"))?;
+
+    if output.status.success() {
+        Ok(())
+    } else {
+        let details = String::from_utf8_lossy(&output.stderr).trim().to_owned();
+        if details.is_empty() {
+            Err(format!(
+                "Rust target dry-run failed for {target} with status {}",
+                output.status
+            ))
+        } else {
+            Err(format!(
+                "Rust target dry-run failed for {target} with status {}: {details}",
+                output.status
+            ))
+        }
     }
 }
 
@@ -111,5 +173,33 @@ mod tests {
     #[test]
     fn validates_identifier_registry() {
         assert!(verify_identifiers(workspace_root()).is_ok());
+    }
+
+    #[test]
+    fn validates_six_target_matrix() {
+        assert!(verify_targets().is_ok());
+    }
+
+    #[test]
+    fn rejects_duplicate_target_matrix_entry() {
+        let targets = ["x86_64-unknown-linux-gnu", "x86_64-unknown-linux-gnu"];
+        let result = validate_target_matrix(&targets);
+
+        assert!(matches!(
+            result,
+            Err(error) if error.contains("duplicate targets")
+        ));
+    }
+
+    #[test]
+    fn rejects_unknown_target_with_actionable_error() {
+        let result = verify_target("apex-unknown-target");
+
+        assert!(matches!(
+            result,
+            Err(error)
+                if error.contains("apex-unknown-target")
+                    && error.contains("Rust target dry-run failed")
+        ));
     }
 }

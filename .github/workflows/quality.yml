@@ -22,6 +22,15 @@ jobs:
       - run: python3 -m unittest scripts/test_identifier_registry.py
       - run: python3 scripts/validate_identifier_registry.py
 
+  targets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          toolchain: 1.96.1
+      - run: cargo xtask verify targets
+
   check:
     runs-on: ubuntu-latest
     steps:

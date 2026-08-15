@@ -1,5 +1,7 @@
 # EP-0102 target matrix
 
+机器可读事实源：`docs/governance/target-matrix.txt`。
+
 | OS | Architecture | Rust target |
 |---|---|---|
 | macOS | x86_64 | `x86_64-apple-darwin` |
@@ -9,7 +11,5 @@
 | Linux | x86_64 | `x86_64-unknown-linux-gnu` |
 | Linux | aarch64 | `aarch64-unknown-linux-gnu` |
 
-The six targets are the cross-compilation matrix. They are documented here
-rather than listed in `rust-toolchain.toml`, so a local Cargo command does not
-silently download a platform standard library. CI or release runners install
-the target needed by their job before running the corresponding dry-run.
+`cargo xtask verify targets` 会读取机器可读事实源并验证数量、唯一性和 rustc
+识别能力。文档表不再作为程序输入，避免 Markdown 解析耦合。
