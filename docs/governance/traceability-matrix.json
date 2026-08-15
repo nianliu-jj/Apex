@@ -32,10 +32,17 @@
     {
       "rq_id": "RQ-002",
       "ac_ids": [],
-      "ep_ids": [],
-      "val_ids": [],
-      "evidence_paths": [],
-      "status": "unmapped",
+      "ep_ids": [
+        "EP-0101"
+      ],
+      "val_ids": [
+        "VAL-08"
+      ],
+      "evidence_paths": [
+        "docs/evidence/ep-0101/README.md",
+        "docs/evidence/ep-0101/verification.md"
+      ],
+      "status": "部分完成",
       "note": "需求映射由 EP 卡片和验证文档逐项补齐。",
       "source": "docs/Apex 设计文档.md"
     },
@@ -1551,9 +1558,11 @@
       "version": "v0.1",
       "stage": "S1",
       "module": "M-01",
-      "status": "需重构",
+      "status": "部分完成",
       "title": "创建 workspace 根清单与成员列表",
-      "val_ids": []
+      "val_ids": [
+        "VAL-08"
+      ]
     },
     {
       "ep_id": "EP-0102",

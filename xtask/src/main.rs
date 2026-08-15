@@ -52,19 +52,36 @@ fn verify_identifiers(root: &Path) -> Result<(), String> {
 }
 
 fn verify_workspace(root: &Path) -> Result<(), String> {
-    let status = Command::new(env!("CARGO"))
-        .args(["metadata", "--no-deps", "--format-version", "1"])
+    let manifest = root.join("Cargo.toml");
+    let output = Command::new(env!("CARGO"))
+        .args([
+            "metadata",
+            "--no-deps",
+            "--format-version",
+            "1",
+            "--manifest-path",
+        ])
+        .arg(&manifest)
         .current_dir(root)
-        .status()
+        .output()
         .map_err(|error| format!("failed to execute cargo metadata: {error}"))?;
 
-    if status.success() {
+    if output.status.success() {
         println!("PASS: Cargo workspace members and paths are valid");
         Ok(())
     } else {
-        Err(format!(
-            "Cargo workspace validation failed with status {status}"
-        ))
+        let details = String::from_utf8_lossy(&output.stderr).trim().to_owned();
+        if details.is_empty() {
+            Err(format!(
+                "Cargo workspace validation failed with status {}",
+                output.status
+            ))
+        } else {
+            Err(format!(
+                "Cargo workspace validation failed with status {}: {details}",
+                output.status
+            ))
+        }
     }
 }
 
@@ -79,9 +96,16 @@ mod tests {
     }
 
     #[test]
-    fn rejects_missing_workspace_member() {
+    fn rejects_missing_workspace_member_with_actionable_error() {
         let fixture = workspace_root().join("xtask/tests/fixtures/missing-member");
-        assert!(verify_workspace(&fixture).is_err());
+        let result = verify_workspace(&fixture);
+
+        assert!(matches!(
+            result,
+            Err(error)
+                if error.contains("Cargo workspace validation failed")
+                    && error.contains("missing-crate")
+        ));
     }
 
     #[test]
