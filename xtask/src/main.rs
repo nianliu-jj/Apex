@@ -23,9 +23,14 @@ fn run(mut arguments: impl Iterator<Item = String>) -> Result<(), String> {
         (Some("verify"), Some("identifiers")) if arguments.next().is_none() => {
             verify_identifiers(workspace_root())
         }
+        (Some("verify"), Some("specs")) if arguments.next().is_none() => {
+            verify_specs(workspace_root())
+        }
         (Some("verify"), Some("targets")) if arguments.next().is_none() => verify_targets(),
         (Some("verify"), Some("quality")) if arguments.next().is_none() => verify_quality(),
-        _ => Err("usage: cargo xtask verify <workspace|identifiers|targets|quality>".to_owned()),
+        _ => Err(
+            "usage: cargo xtask verify <workspace|identifiers|specs|targets|quality>".to_owned(),
+        ),
     }
 }
 
@@ -33,6 +38,36 @@ fn workspace_root() -> &'static Path {
     Path::new(env!("CARGO_MANIFEST_DIR"))
         .parent()
         .unwrap_or_else(|| Path::new(env!("CARGO_MANIFEST_DIR")))
+}
+
+fn verify_specs(root: &Path) -> Result<(), String> {
+    let script = root.join("scripts/validate_spec_templates.py");
+    run_python_validator(root, &script, "Feature Spec template")?;
+    println!("PASS: Feature Spec templates, schema, and fixtures are valid");
+    Ok(())
+}
+
+fn run_python_validator(root: &Path, script: &Path, label: &str) -> Result<(), String> {
+    let command = if cfg!(windows) { "python" } else { "python3" };
+    let output = Command::new(command)
+        .arg(script)
+        .current_dir(root)
+        .output()
+        .map_err(|error| format!("failed to execute {label} validator: {error}"))?;
+
+    if output.status.success() {
+        Ok(())
+    } else {
+        let details = String::from_utf8_lossy(&output.stderr).trim().to_owned();
+        Err(if details.is_empty() {
+            format!("{label} validation failed with status {}", output.status)
+        } else {
+            format!(
+                "{label} validation failed with status {}: {details}",
+                output.status
+            )
+        })
+    }
 }
 
 fn verify_identifiers(root: &Path) -> Result<(), String> {
@@ -217,6 +252,11 @@ mod tests {
     #[test]
     fn validates_identifier_registry() {
         assert!(verify_identifiers(workspace_root()).is_ok());
+    }
+
+    #[test]
+    fn validates_feature_spec_templates() {
+        assert!(verify_specs(workspace_root()).is_ok());
     }
 
     #[test]

@@ -45,14 +45,14 @@ Apex/
 ```bash
 cargo xtask verify workspace
 cargo xtask verify identifiers
-python scripts/validate_spec_templates.py
+cargo xtask verify specs
 cargo fmt --all -- --check
 cargo check --workspace
 cargo clippy --workspace --all-targets -- -D warnings -A missing-docs
 cargo test --workspace
 ```
 
-其中 Feature Spec 模板仍由对应治理 EP 补齐；模板不存在时，schema 校验会按预期失败。
+Feature Spec 模板、schema 与正负 fixture 由 `cargo xtask verify specs` 统一校验。
 
 ## 文档入口
 
